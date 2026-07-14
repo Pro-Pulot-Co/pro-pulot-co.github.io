@@ -562,3 +562,28 @@ nav ul{
 .hero-founded{
     text-shadow:0 3px 12px rgba(0,0,0,.65);
 }
+#gallery-page{
+
+    padding:120px 8%;
+
+    background:#f7f7f7;
+
+}
+
+.gallery-button{
+
+    text-align:center;
+
+    margin-top:50px;
+
+}
+
+.gallery-button .btn{
+
+    padding:16px 42px;
+
+    border-radius:50px;
+
+    display:inline-block;
+
+}
