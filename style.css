@@ -81,34 +81,131 @@ nav ul li a:hover{
    HERO
 ====================== */
 
+/* ==========================
+   PREMIUM HERO
+========================== */
+
 .hero{
-    min-height:100vh;
+    position:relative;
+    width:100%;
+    height:100vh;
+    overflow:hidden;
     display:flex;
-    flex-direction:column;
-    justify-content:center;
     align-items:center;
+    justify-content:center;
     text-align:center;
-    color:white;
+    color:#fff;
+}
+
+.hero-slides{
+    position:absolute;
+    inset:0;
+}
+
+.hero-slide{
+    position:absolute;
+    inset:0;
+    background-size:cover;
+    background-position:center;
+    opacity:0;
+    transform:scale(1);
+    transition:opacity 1.5s ease-in-out, transform 8s linear;
+}
+
+.hero-slide.active{
+    opacity:1;
+    transform:scale(1.08);
+}
+
+.hero-overlay{
+    position:absolute;
+    inset:0;
+    background:rgba(0,0,0,.55);
+    z-index:1;
+}
+
+.hero-content{
+    position:relative;
+    z-index:2;
+    max-width:900px;
     padding:20px;
-    background:
-    linear-gradient(rgba(0,0,0,.65),rgba(0,0,0,.65)),
-    url("images/hero.jpg") center center/cover;
+    animation:fadeUp 1.2s ease;
 }
 
 .hero h1{
-    font-size:65px;
-    font-family:'Montserrat',sans-serif;
+    font-size:58px;
     font-weight:800;
+    margin-bottom:10px;
 }
 
-.hero p{
-    margin-top:20px;
-    font-size:22px;
+.hero-subtitle{
+    color:#d4af37;
+    font-size:24px;
+    margin-bottom:20px;
+}
+
+.hero h2{
+    font-size:48px;
+    color:#d4af37;
+    line-height:1.2;
+    margin-bottom:25px;
+}
+
+.hero-description{
     max-width:700px;
+    margin:0 auto;
+    font-size:20px;
+    line-height:1.7;
 }
 
-.hero .btn{
-    margin-top:35px;
+.hero-founded{
+    margin-top:25px;
+    color:#d4af37;
+    font-size:20px;
+    font-weight:700;
+}
+
+.hero-buttons{
+    margin-top:40px;
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+@keyframes fadeUp{
+    from{
+        opacity:0;
+        transform:translateY(40px);
+    }
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+}
+
+@media(max-width:768px){
+
+.hero h1{
+    font-size:42px;
+}
+
+.hero h2{
+    font-size:30px;
+}
+
+.hero-subtitle{
+    font-size:18px;
+}
+
+.hero-description{
+    font-size:16px;
+}
+
+.hero-buttons{
+    flex-direction:column;
+}
+
 }
 
 /* ======================
