@@ -44,22 +44,12 @@ header{
 
 nav{
 
-    position:fixed;
-    top:0;
-    left:0;
     width:100%;
-
     display:flex;
     justify-content:space-between;
     align-items:center;
-
     padding:20px 8%;
-
-    background:transparent;
-
     transition:all .4s ease;
-
-    z-index:1000;
 
 }
    nav.scrolled{
