@@ -43,13 +43,34 @@ header{
 }
 
 nav{
-    width:90%;
-    max-width:1200px;
-    margin:auto;
+    nav{
+
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+
     display:flex;
     justify-content:space-between;
     align-items:center;
-    padding:18px 0;
+
+    padding:20px 8%;
+
+    background:transparent;
+
+    transition:all .4s ease;
+
+    z-index:1000;
+
+}
+   nav.scrolled{
+
+    background:rgba(20,20,20,.96);
+
+    box-shadow:0 8px 25px rgba(0,0,0,.25);
+
+    backdrop-filter:blur(8px);
+
 }
 
 .logo{
@@ -95,6 +116,7 @@ nav ul li a:hover{
     justify-content:center;
     text-align:center;
     color:#fff;
+   
 }
 
 .hero-slides{
@@ -689,3 +711,22 @@ nav ul{
     right:40px;
 
 }
+/* ==========================
+   TRANSPARENT NAVBAR
+========================== */
+
+const nav = document.querySelector("nav");
+
+window.addEventListener("scroll", () => {
+
+    if(window.scrollY > 80){
+
+        nav.classList.add("scrolled");
+
+    }else{
+
+        nav.classList.remove("scrolled");
+
+    }
+
+});
