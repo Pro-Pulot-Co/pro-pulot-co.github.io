@@ -1,0 +1,336 @@
+/* ===================================================
+   PRO PULOT CO.
+   Premium Website
+   Author: ChatGPT
+   =================================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700;800&family=Poppins:wght@300;400;500;600&display=swap');
+
+:root{
+    --gold:#c6922d;
+    --black:#121212;
+    --white:#ffffff;
+    --light:#f5f5f5;
+    --gray:#6b6b6b;
+    --shadow:0 10px 25px rgba(0,0,0,.18);
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family:'Poppins',sans-serif;
+    background:var(--light);
+    color:var(--black);
+}
+
+/* ======================
+   NAVIGATION
+====================== */
+
+header{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    background:rgba(18,18,18,.95);
+    backdrop-filter:blur(10px);
+    z-index:1000;
+}
+
+nav{
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:18px 0;
+}
+
+.logo{
+    color:var(--gold);
+    font-size:30px;
+    font-weight:800;
+    font-family:'Montserrat',sans-serif;
+    letter-spacing:2px;
+}
+
+nav ul{
+    display:flex;
+    list-style:none;
+    gap:25px;
+}
+
+nav ul li a{
+    color:white;
+    text-decoration:none;
+    transition:.3s;
+    font-weight:500;
+}
+
+nav ul li a:hover{
+    color:var(--gold);
+}
+
+/* ======================
+   HERO
+====================== */
+
+.hero{
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    color:white;
+    padding:20px;
+    background:
+    linear-gradient(rgba(0,0,0,.65),rgba(0,0,0,.65)),
+    url("images/hero.jpg") center center/cover;
+}
+
+.hero h1{
+    font-size:65px;
+    font-family:'Montserrat',sans-serif;
+    font-weight:800;
+}
+
+.hero p{
+    margin-top:20px;
+    font-size:22px;
+    max-width:700px;
+}
+
+.hero .btn{
+    margin-top:35px;
+}
+
+/* ======================
+   BUTTON
+====================== */
+
+.btn{
+    display:inline-block;
+    padding:15px 40px;
+    background:var(--gold);
+    color:white;
+    text-decoration:none;
+    border-radius:50px;
+    transition:.3s;
+}
+
+.btn:hover{
+    transform:translateY(-5px);
+    box-shadow:var(--shadow);
+}
+
+/* ======================
+   SECTION
+====================== */
+
+section{
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+    padding:100px 0;
+}
+
+.section-title{
+    text-align:center;
+    margin-bottom:50px;
+}
+
+.section-title h2{
+    color:var(--gold);
+    font-size:42px;
+    font-family:'Montserrat';
+}
+
+/* ======================
+   CARDS
+====================== */
+
+.grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:30px;
+}
+
+.card{
+    background:white;
+    padding:30px;
+    border-radius:18px;
+    box-shadow:var(--shadow);
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+}
+
+/* ======================
+   MEMBERS
+====================== */
+
+.members{
+    overflow:hidden;
+}
+
+.carousel{
+    display:flex;
+    gap:20px;
+    overflow-x:auto;
+    scroll-behavior:smooth;
+    padding-bottom:10px;
+}
+
+.carousel::-webkit-scrollbar{
+    height:8px;
+}
+
+.carousel::-webkit-scrollbar-thumb{
+    background:var(--gold);
+    border-radius:20px;
+}
+
+.member-card{
+    min-width:280px;
+    background:white;
+    border-radius:18px;
+    box-shadow:var(--shadow);
+    overflow:hidden;
+    transition:.3s;
+}
+
+.member-card:hover{
+    transform:scale(1.03);
+}
+
+.member-card img{
+    width:100%;
+    display:block;
+}
+
+.member-info{
+    padding:18px;
+    text-align:center;
+}
+
+.member-info h3{
+    margin-bottom:8px;
+}
+
+.member-id{
+    display:inline-block;
+    margin-top:10px;
+    padding:8px 18px;
+    background:var(--gold);
+    color:white;
+    border-radius:30px;
+}
+
+/* ======================
+   GALLERY
+====================== */
+
+.gallery{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+}
+
+.gallery img{
+    width:100%;
+    border-radius:15px;
+    transition:.3s;
+}
+
+.gallery img:hover{
+    transform:scale(1.05);
+}
+
+/* ======================
+   FORM
+====================== */
+
+form{
+    max-width:700px;
+    margin:auto;
+}
+
+input,
+textarea,
+select{
+    width:100%;
+    padding:15px;
+    margin:10px 0;
+    border-radius:10px;
+    border:1px solid #ddd;
+    font-size:16px;
+}
+
+button{
+    width:100%;
+    padding:16px;
+    border:none;
+    background:var(--gold);
+    color:white;
+    border-radius:10px;
+    cursor:pointer;
+    font-size:16px;
+}
+
+button:hover{
+    opacity:.9;
+}
+
+/* ======================
+   FOOTER
+====================== */
+
+footer{
+    background:var(--black);
+    color:white;
+    text-align:center;
+    padding:40px 20px;
+}
+
+footer p{
+    color:#bbb;
+}
+
+/* ======================
+   MOBILE
+====================== */
+
+@media(max-width:768px){
+
+.hero h1{
+    font-size:40px;
+}
+
+.hero p{
+    font-size:18px;
+}
+
+nav{
+    flex-direction:column;
+}
+
+nav ul{
+    margin-top:15px;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+
+.section-title h2{
+    font-size:34px;
+}
+
+}
