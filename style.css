@@ -810,15 +810,18 @@ nav ul{
 }
 
 .leader-modal-content{
-    width:100%;
-    max-width:650px;
+
     background:#fff;
-    border-radius:20px;
+    width:90%;
+    max-width:900px;
     padding:40px;
-    text-align:center;
+    border-radius:20px;
     position:relative;
-    box-shadow:0 20px 60px rgba(0,0,0,.35);
-    animation:leaderPopup .35s ease;
+    animation:modalShow .3s;
+    display:flex;
+    gap:40px;
+    align-items:flex-start;
+
 }
 
 @keyframes leaderPopup{
