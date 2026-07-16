@@ -240,11 +240,21 @@ const leaders = {
 },
 
     irik:{
-        name:"Irik Patria",
-        position:"CO-CAPTAIN",
-        image:"images/officers/Irik.jpg",
-        bio:"Supports the Captain and coordinates club activities while ensuring smooth operations."
-    },
+    name:"Irik Patria",
+    position:"Co-Captain",
+    image:"images/officers/Irik.jpg",
+
+    tenure:"Founding Member • Since 2026",
+
+    bio:"Serves as Co-Captain of Pro Pulot Co., supporting the Captain in leading the organization while coordinating club activities, strengthening teamwork, and ensuring smooth day-to-day operations.",
+
+    responsibilities:[
+        "Support the Captain in club leadership",
+        "Coordinate team activities and events",
+        "Promote teamwork and sportsmanship",
+        "Assist in organizational planning"
+    ]
+},
 
     froii:{
         name:"Froii Katipunan",
