@@ -445,7 +445,7 @@ const specialMembers = {
     Sharon:{
         name:"Sharon Ano-os",
         title:"Featured Special Member",
-        image:"images/feature/member2.jpg",
+        image:"images/feature/member2.png",
 
         tenure:"Special Guest",
 
@@ -461,7 +461,7 @@ const specialMembers = {
     Randy:{
         name:"Randy Cipriano",
         title:"Featured Special Member",
-        image:"images/feature/member3.jpg",
+        image:"images/feature/member3.png",
 
         tenure:"Special Guest",
 
@@ -477,7 +477,7 @@ const specialMembers = {
     Roswel:{
         name:"Roswel Dayanan",
         title:"Featured Special Member",
-        image:"images/feature/member4.jpg",
+        image:"images/feature/member4.png",
 
         tenure:"Special Guest",
 
