@@ -342,6 +342,7 @@ function loadLeader(id){
 
     });
 
+   }
 }
 
 document.querySelectorAll(".leader-btn").forEach(button=>{
