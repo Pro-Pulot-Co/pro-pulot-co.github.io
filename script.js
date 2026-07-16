@@ -500,7 +500,8 @@ function loadLeader(id){
 
     currentLeader = id;
     currentProfileType = "leader";
-
+    document.getElementById("profile-type-title").textContent =
+    "Official Leadership Profile";
     const leader = leaders[id];
 
     console.log("Position:", leader.position);
@@ -535,7 +536,8 @@ function loadSpecialMember(id){
 
     currentLeader = id;
     currentProfileType = "special";
-
+    document.getElementById("profile-type-title").textContent =
+    "Featured Special Member";
     const member = specialMembers[id];
 
     document.getElementById("leader-photo").src = member.image;
