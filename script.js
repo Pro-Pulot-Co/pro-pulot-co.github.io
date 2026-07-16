@@ -361,7 +361,7 @@ const leaders = {
   rovelyn:{
     name:"Rovelyn Amil",
     position:"Member Onboarding Associate",
-    image:"images/officers/Rovelyn.jpg",
+    image:"images/officers/rovelyn.jpg",
 
     tenure:"Founding Member • Since 2026",
 
