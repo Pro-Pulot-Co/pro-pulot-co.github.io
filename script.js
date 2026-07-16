@@ -192,6 +192,33 @@ window.addEventListener("scroll", () => {
 /* ==========================
    LEADERSHIP PROFILE
 ========================== */
+let currentLeader = "";
+
+const leaderOrder = [
+
+    "leigh",
+
+    "irik",
+
+    "froii",
+
+    "jessan",
+
+    "aziel",
+
+    "sheena",
+
+    "derence",
+
+    "philip",
+
+    "justice",
+
+    "roch",
+
+    "rovelyn"
+
+];
 
 const leaders = {
 
@@ -276,18 +303,26 @@ const leaders = {
 
 const leaderModal = document.getElementById("leader-modal");
 
+function loadLeader(id){
+
+    currentLeader = id;
+
+    const leader = leaders[id];
+
+    document.getElementById("leader-photo").src = leader.image;
+    document.getElementById("leader-name").textContent = leader.name;
+    document.getElementById("leader-position").textContent = leader.position;
+    document.getElementById("leader-bio").textContent = leader.bio;
+
+}
+
 document.querySelectorAll(".leader-btn").forEach(button=>{
 
     button.addEventListener("click",function(e){
 
         e.preventDefault();
 
-        const leader = leaders[this.dataset.leader];
-
-        document.getElementById("leader-photo").src = leader.image;
-        document.getElementById("leader-name").textContent = leader.name;
-        document.getElementById("leader-position").textContent = leader.position;
-        document.getElementById("leader-bio").textContent = leader.bio;
+        loadLeader(this.dataset.leader);
 
         leaderModal.classList.add("active");
 
@@ -310,3 +345,30 @@ leaderModal.onclick=function(e){
     }
 
 }
+document.getElementById("leader-next").onclick = function(){
+
+    let index = leaderOrder.indexOf(currentLeader);
+
+    index++;
+
+    if(index >= leaderOrder.length){
+        index = 0;
+    }
+
+    loadLeader(leaderOrder[index]);
+
+};
+
+document.getElementById("leader-prev").onclick = function(){
+
+    let index = leaderOrder.indexOf(currentLeader);
+
+    index--;
+
+    if(index < 0){
+        index = leaderOrder.length - 1;
+    }
+
+    loadLeader(leaderOrder[index]);
+
+};
