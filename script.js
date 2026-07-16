@@ -499,6 +499,7 @@ const leaderModal = document.getElementById("leader-modal");
 function loadLeader(id){
 
     currentLeader = id;
+    currentProfileType = "leader";
 
     const leader = leaders[id];
 
@@ -531,6 +532,9 @@ function loadLeader(id){
 }
 
 function loadSpecialMember(id){
+
+    currentLeader = id;
+    currentProfileType = "special";
 
     const member = specialMembers[id];
 
