@@ -330,6 +330,8 @@ function loadLeader(id){
 
     responsibilityList.innerHTML = "";
 
+   if (leader.responsibilities) {
+
     leader.responsibilities.forEach(item => {
 
         const li = document.createElement("li");
