@@ -639,14 +639,30 @@ document.getElementById("leader-next").onclick = function(){
 
 document.getElementById("leader-prev").onclick = function(){
 
-    let index = leaderOrder.indexOf(currentLeader);
+    if(currentProfileType === "special"){
 
-    index--;
+        let index = specialOrder.indexOf(currentLeader);
 
-    if(index < 0){
-        index = leaderOrder.length - 1;
+        index--;
+
+        if(index < 0){
+            index = specialOrder.length - 1;
+        }
+
+        loadSpecialMember(specialOrder[index]);
+
+    }else{
+
+        let index = leaderOrder.indexOf(currentLeader);
+
+        index--;
+
+        if(index < 0){
+            index = leaderOrder.length - 1;
+        }
+
+        loadLeader(leaderOrder[index]);
+
     }
-
-    loadLeader(leaderOrder[index]);
 
 };
