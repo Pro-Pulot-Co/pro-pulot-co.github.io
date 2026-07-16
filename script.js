@@ -256,33 +256,73 @@ const leaders = {
     ]
 },
 
-    froii:{
-        name:"Froii Katipunan",
-        position:"TREASURER",
-        image:"images/officers/Froii.jpg",
-        bio:"Manages the club's finances, budgeting, and membership dues with transparency and accountability."
-    },
+  froii:{
+    name:"Froii Katipunan",
+    position:"Treasurer",
+    image:"images/officers/Froii.jpg",
+
+    tenure:"Founding Member • Since 2026",
+
+    bio:"Serves as Treasurer of Pro Pulot Co., overseeing the organization's financial resources while ensuring transparency, accountability, and responsible budget management.",
+
+    responsibilities:[
+        "Manage club finances and records",
+        "Monitor membership dues",
+        "Prepare financial reports",
+        "Support budget planning"
+    ]
+},
 
     jessan:{
-        name:"Jessan Marie Gravador",
-        position:"SCHEDULER",
-        image:"images/officers/Jessan.jpg",
-        bio:"Organizes club schedules, practices, tournaments, and special events."
-    },
+    name:"Jessan Marie Gravador",
+    position:"Scheduler",
+    image:"images/officers/Jessan.jpg",
 
-    aziel:{
-        name:"Aziel JD Altamarino",
-        position:"SOFTWARE & SOCIAL MEDIA ENGINEER",
-        image:"images/officers/aziel.jpg",
-        bio:"Develops and maintains the Pro Pulot Co. website, digital platforms, and technology solutions."
-    },
+    tenure:"Founding Member • Since 2026",
 
-    sheena:{
-        name:"Sheena Adlao",
-        position:"EQUIPMENT MANAGER",
-        image:"images/officers/Sheena.jpg",
-        bio:"Maintains club equipment and ensures all matches and events are properly supplied."
-    },
+    bio:"Serves as Scheduler of Pro Pulot Co., coordinating club activities, tournaments, practices, and ensuring members stay informed of upcoming events.",
+
+    responsibilities:[
+        "Organize club schedules",
+        "Coordinate tournaments and practices",
+        "Maintain the activity calendar",
+        "Communicate event schedules"
+    ]
+},
+
+   aziel:{
+    name:"Aziel JD Altamarino",
+    position:"Systems & Software Engineer",
+    image:"images/officers/aziel.jpg",
+
+    tenure:"Founding Member • Since 2026",
+
+    bio:"Serves as Systems & Software Engineer of Pro Pulot Co., leading the organization's digital transformation through website development, automation, and technology solutions.",
+
+    responsibilities:[
+        "Develop and maintain the official website",
+        "Manage club digital systems",
+        "Support social media technology",
+        "Implement technology improvements"
+    ]
+},
+
+   sheena:{
+    name:"Sheena Adlao",
+    position:"Equipment Manager",
+    image:"images/officers/Sheena.jpg",
+
+    tenure:"Founding Member • Since 2026",
+
+    bio:"Serves as Equipment Manager of Pro Pulot Co., ensuring club equipment is properly maintained, organized, and available for every activity and event.",
+
+    responsibilities:[
+        "Maintain club equipment",
+        "Prepare equipment for events",
+        "Monitor equipment inventory",
+        "Ensure equipment readiness"
+    ]
+},
 
     justice:{
         name:"Justice Villanueva",
