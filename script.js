@@ -265,12 +265,13 @@ const leaders = {
         bio:"Assist new members learn basic techniques to enhance skills and expertise."
     },
     
-    philip:{
-        name:"Philip Clavecillas",
-        position:"Dink Master 2",
-        image:"images/officers/Philip.png",
-        bio:"Support in assisting new members learn their basic skills and acquaint with the community."
-        
+   philip:{
+    name:"Philip Clavecillas",
+    position:"Dink Master 2",
+    image:"images/officers/Philip.png",
+    bio:"Support in assisting new members learn their basic skills and acquaint with the community."
+}
+
 };
 
 const leaderModal = document.getElementById("leader-modal");
