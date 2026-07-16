@@ -198,28 +198,28 @@ const leaders = {
     leigh:{
         name:"Leigh Pacilan",
         position:"Captain",
-        image:"images/officers/leigh.jpg",
+        image:"images/officers/Leigh.jpg",
         bio:"Provides strategic leadership, oversees club operations, and promotes the vision and values of Pro Pulot Co."
     },
 
     irik:{
         name:"Irik Patria",
         position:"Co-Captain",
-        image:"images/officers/irik.jpg",
+        image:"images/officers/Irik.jpg",
         bio:"Supports the Captain and coordinates club activities while ensuring smooth operations."
     },
 
     froii:{
         name:"Froii Katipunan",
         position:"Treasurer",
-        image:"images/officers/froii.jpg",
+        image:"images/officers/Froii.jpg",
         bio:"Manages the club's finances, budgeting, and membership dues with transparency and accountability."
     },
 
     jessan:{
         name:"Jessan Marie Gravador",
         position:"Scheduler",
-        image:"images/officers/jessan.jpg",
+        image:"images/officers/Jessan.jpg",
         bio:"Organizes club schedules, practices, tournaments, and special events."
     },
 
@@ -233,42 +233,42 @@ const leaders = {
     sheena:{
         name:"Sheena Adlao",
         position:"Equipment Manager",
-        image:"images/officers/sheena.jpg",
+        image:"images/officers/Sheena.jpg",
         bio:"Maintains club equipment and ensures all matches and events are properly supplied."
     },
 
     justice:{
         name:"Justice Villanueva",
         position:"New Member Onboarding",
-        image:"images/officers/justice.jpg",
+        image:"images/officers/Justice.jpg",
         bio:"Welcomes new members and helps them integrate into the Pro Pulot Co. community."
     },
 
     roch:{
         name:"Roch Laquinon",
         position:"New Member Onboarding",
-        image:"images/officers/roch.jpg",
+        image:"images/officers/Roch.jpg",
         bio:"Supports new members through activities and encourages participation."
     },
 
     rovelyn:{
         name:"Rovelyn Amil",
         position:"New Member Onboarding",
-        image:"images/officers/rovelyn.jpg",
+        image:"images/officers/Rovelyn.jpg",
         bio:"Creates a welcoming and friendly environment for every new member."
     },
 
     derence:{
         name:"Derence Gadiana",
         position:"Dink Master 1",
-        image:"images/officers/derence.png",
+        image:"images/officers/Derence.png",
         bio:"Assist new members learn basic techniques to enhance skills and expertise."
     },
     
     philip:{
         name:"Philip Clavecillas",
         position:"Dink Master 2",
-        image:"images/officers/philip.png",
+        image:"images/officers/Philip.png",
         bio:"Support in assisting new members learn their basic skills and acquaint with the community."
         
 };
