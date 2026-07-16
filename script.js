@@ -295,7 +295,7 @@ const leaders = {
     position:"Software & Social Media Engineer",
     image:"images/officers/aziel.jpg",
 
-    tenure:"Founding Member • Since 2026",
+    tenure:"2nd Gen Member • Since 2026",
 
     bio:"Serves as the Systems & Software Engineer of Pro Pulot Co., leading the development, maintenance, and continuous improvement of the organization's official website and digital platforms. As the developer of the official Pro Pulot Co. website, he drives the club's digital initiatives to strengthen communication, streamline operations, and provide members with a modern and engaging online experience.",
 
