@@ -606,17 +606,34 @@ leaderModal.onclick=function(e){
     }
 
 }
+
 document.getElementById("leader-next").onclick = function(){
 
-    let index = leaderOrder.indexOf(currentLeader);
+    if(currentProfileType === "special"){
 
-    index++;
+        let index = specialOrder.indexOf(currentLeader);
 
-    if(index >= leaderOrder.length){
-        index = 0;
+        index++;
+
+        if(index >= specialOrder.length){
+            index = 0;
+        }
+
+        loadSpecialMember(specialOrder[index]);
+
+    }else{
+
+        let index = leaderOrder.indexOf(currentLeader);
+
+        index++;
+
+        if(index >= leaderOrder.length){
+            index = 0;
+        }
+
+        loadLeader(leaderOrder[index]);
+
     }
-
-    loadLeader(leaderOrder[index]);
 
 };
 
