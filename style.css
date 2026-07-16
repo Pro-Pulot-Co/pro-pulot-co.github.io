@@ -797,31 +797,63 @@ nav ul{
    LEADERSHIP PROFILE MODAL
 ========================== */
 
-.leader-modal-content{
-    max-width:900px;
-    width:90%;
-    display:flex;
-    gap:40px;
-    align-items:flex-start;
+/* ==========================
+   LEADER MODAL LAYOUT
+========================== */
+
+.leader-left{
+    width:35%;
+    text-align:center;
+    border-right:1px solid #ececec;
+    padding-right:30px;
 }
 
-.leader-modal.active{
-    display:flex;
-}
-
-.leader-modal-content{
-
-    background:#fff;
-    width:90%;
-    max-width:900px;
-    padding:40px;
-    border-radius:20px;
+.leader-right{
+    width:65%;
     position:relative;
-    animation:modalShow .3s;
-    display:flex;
-    gap:40px;
-    align-items:flex-start;
+}
 
+.leader-header{
+    margin-bottom:25px;
+}
+
+.leader-header h5{
+    color:#c6922d;
+    letter-spacing:3px;
+    text-transform:uppercase;
+    font-size:13px;
+    margin-bottom:8px;
+}
+
+.leader-header h2{
+    font-size:26px;
+    color:#222;
+    margin-bottom:30px;
+}
+
+#leader-photo{
+    width:220px;
+    height:220px;
+    object-fit:cover;
+    border-radius:50%;
+    border:5px solid #c6922d;
+    margin-bottom:20px;
+}
+
+#leader-name{
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+#leader-position{
+    display:inline-block;
+    background:#c6922d;
+    color:#fff;
+    padding:8px 22px;
+    border-radius:30px;
+    text-transform:uppercase;
+    font-size:14px;
+    letter-spacing:1px;
 }
 
 @keyframes leaderPopup{
@@ -935,4 +967,37 @@ nav ul{
 
 .leader-navigation button:hover{
     background:#a67d1d;
+}
+@media(max-width:900px){
+
+    .leader-modal-content{
+
+        flex-direction:column;
+
+        max-height:90vh;
+
+        overflow-y:auto;
+
+    }
+
+    .leader-left{
+
+        width:100%;
+
+        border-right:none;
+
+        border-bottom:1px solid #ececec;
+
+        padding-right:0;
+
+        padding-bottom:30px;
+
+    }
+
+    .leader-right{
+
+        width:100%;
+
+    }
+
 }
