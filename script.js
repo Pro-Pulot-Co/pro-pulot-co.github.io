@@ -189,3 +189,110 @@ window.addEventListener("scroll", () => {
     }
 
 });
+/* ==========================
+   LEADERSHIP PROFILE
+========================== */
+
+const leaders = {
+
+    leigh:{
+        name:"Leigh Pacilan",
+        position:"Captain",
+        image:"images/officers/leigh.png",
+        bio:"Provides strategic leadership, oversees club operations, and promotes the vision and values of Pro Pulot Co."
+    },
+
+    irik:{
+        name:"Irik Patria",
+        position:"Co-Captain",
+        image:"images/officers/irik.png",
+        bio:"Supports the Captain and coordinates club activities while ensuring smooth operations."
+    },
+
+    froii:{
+        name:"Froii Katipunan",
+        position:"Treasurer",
+        image:"images/officers/froii.png",
+        bio:"Manages the club's finances, budgeting, and membership dues with transparency and accountability."
+    },
+
+    sheena:{
+        name:"Sheena Adlao",
+        position:"Scheduler",
+        image:"images/officers/sheena.png",
+        bio:"Organizes club schedules, practices, tournaments, and special events."
+    },
+
+    aziel:{
+        name:"Aziel JD Altamarino",
+        position:"Systems & Software Manager",
+        image:"images/officers/aziel.png",
+        bio:"Develops and maintains the Pro Pulot Co. website, digital platforms, and technology solutions."
+    },
+
+    jessan:{
+        name:"Jessan Marie Gravador",
+        position:"Equipment Manager",
+        image:"images/officers/jessan.png",
+        bio:"Maintains club equipment and ensures all matches and events are properly supplied."
+    },
+
+    justice:{
+        name:"Justice Villanueva",
+        position:"New Member Onboarding",
+        image:"images/officers/justice.png",
+        bio:"Welcomes new members and helps them integrate into the Pro Pulot Co. community."
+    },
+
+    roch:{
+        name:"Roch Laquinon",
+        position:"New Member Onboarding",
+        image:"images/officers/roch.png",
+        bio:"Supports new members through activities and encourages participation."
+    },
+
+    rovelyn:{
+        name:"Rovelyn Amil",
+        position:"New Member Onboarding",
+        image:"images/officers/rovelyn.png",
+        bio:"Creates a welcoming and friendly environment for every new member."
+    }
+
+};
+
+const leaderModal = document.getElementById("leader-modal");
+
+document.querySelectorAll(".leader-btn").forEach(button=>{
+
+    button.addEventListener("click",function(e){
+
+        e.preventDefault();
+
+        const leader = leaders[this.dataset.leader];
+
+        document.getElementById("leader-photo").src = leader.image;
+        document.getElementById("leader-name").textContent = leader.name;
+        document.getElementById("leader-position").textContent = leader.position;
+        document.getElementById("leader-bio").textContent = leader.bio;
+
+        leaderModal.classList.add("active");
+
+    });
+
+});
+
+document.querySelector(".leader-close").onclick=function(){
+
+    leaderModal.classList.remove("active");
+
+}
+
+leaderModal.onclick=function(e){
+
+    if(e.target===leaderModal){
+
+        leaderModal.classList.remove("active");
+
+    }
+
+}
