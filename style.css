@@ -756,13 +756,16 @@ nav ul{
 }
 
 .leader-role{
-    display:inline-block;
-    margin:15px 0;
+
+    display:block;
+    width:fit-content;
+    margin:15px auto;
     background:#c6922d;
     color:#fff;
     padding:8px 18px;
     border-radius:50px;
     font-weight:600;
+
 }
 
 .leader-actions{
