@@ -290,20 +290,20 @@ const leaders = {
     ]
 },
 
-   aziel:{
+  aziel:{
     name:"Aziel JD Altamarino",
     position:"Systems & Software Engineer",
     image:"images/officers/aziel.jpg",
 
     tenure:"Founding Member • Since 2026",
 
-    bio:"Serves as Systems & Software Engineer of Pro Pulot Co., leading the organization's digital transformation through website development, automation, and technology solutions.",
+    bio:"Serves as the Systems & Software Engineer of Pro Pulot Co., leading the development, maintenance, and continuous improvement of the organization's official website and digital platforms. As the developer of the official Pro Pulot Co. website, he drives the club's digital initiatives to strengthen communication, streamline operations, and provide members with a modern and engaging online experience.",
 
     responsibilities:[
-        "Develop and maintain the official website",
-        "Manage club digital systems",
-        "Support social media technology",
-        "Implement technology improvements"
+        "Design, develop, and maintain the official Pro Pulot Co. website",
+        "Manage the organization's digital systems and technology solutions",
+        "Implement new features and continuously improve the member experience",
+        "Support digital communications and lead technology innovation"
     ]
 },
 
@@ -325,38 +325,88 @@ const leaders = {
 },
 
     justice:{
-        name:"Justice Villanueva",
-        position:"NEW MEMBER ONBOARDING",
-        image:"images/officers/Justice.jpg",
-        bio:"Welcomes new members and helps them integrate into the Pro Pulot Co. community."
-    },
+    name:"Justice Villanueva",
+    position:"Member Onboarding Associate",
+    image:"images/officers/Justice.jpg",
+
+    tenure:"Founding Member • Since 2026",
+
+    bio:"Serves as a Member Onboarding Associate of Pro Pulot Co., ensuring every new member feels welcomed, informed, and connected to the community.",
+
+    responsibilities:[
+        "Welcome and orient new members",
+        "Introduce club programs and activities",
+        "Assist with member integration",
+        "Promote a positive community experience"
+    ]
+},
 
     roch:{
-        name:"Roch Laquinon",
-        position:"NEW MEMBER ONBOARDING",
-        image:"images/officers/Roch.jpg",
-        bio:"Supports new members through activities and encourages participation."
-    },
+    name:"Roch Laquinon",
+    position:"Member Onboarding Associate",
+    image:"images/officers/Roch.jpg",
 
-    rovelyn:{
-        name:"Rovelyn Amil",
-        position:"NEW MEMBER ONBOARDING",
-        image:"images/officers/rovelyn.jpg",
-        bio:"Creates a welcoming and friendly environment for every new member."
-    },
+    tenure:"Founding Member • Since 2026",
 
-    derence:{
-        name:"Derence Gadiana",
-        position:"DINK MASTER 1",
-        image:"images/officers/Derence.png",
-        bio:"Assist new members learn basic techniques to enhance skills and expertise."
-    },
+    bio:"Serves as a Member Onboarding Associate of Pro Pulot Co., helping new members become active participants while fostering an inclusive and supportive environment.",
+
+    responsibilities:[
+        "Assist with member onboarding",
+        "Support community engagement activities",
+        "Encourage participation in club events",
+        "Help build an inclusive community"
+    ]
+},
+
+  rovelyn:{
+    name:"Rovelyn Amil",
+    position:"Member Onboarding Associate",
+    image:"images/officers/Rovelyn.jpg",
+
+    tenure:"Founding Member • Since 2026",
+
+    bio:"Serves as a Member Onboarding Associate of Pro Pulot Co., creating a welcoming environment that encourages every member to grow, participate, and enjoy the community.",
+
+    responsibilities:[
+        "Welcome new members",
+        "Support onboarding activities",
+        "Encourage active participation",
+        "Promote a friendly club culture"
+    ]
+},
+
+   derence:{
+    name:"Derence Gadiana",
+    position:"Dink Master 1",
+    image:"images/officers/Derence.png",
+
+    tenure:"Founding Member • Since 2026",
+
+    bio:"Serves as Dink Master 1 of Pro Pulot Co., mentoring members in developing proper pickleball fundamentals, refining techniques, and building confidence on the court.",
+
+    responsibilities:[
+        "Coach members on fundamental pickleball skills",
+        "Demonstrate proper techniques and strategies",
+        "Support player development during club activities",
+        "Promote sportsmanship and continuous learning"
+    ]
+},
     
-   philip:{
+  philip:{
     name:"Philip Clavecillas",
-    position:"DINK MASTER 2",
+    position:"Dink Master 2",
     image:"images/officers/Philip.png",
-    bio:"Support in assisting new members learn their basic skills and acquaint with the community."
+
+    tenure:"Founding Member • Since 2026",
+
+    bio:"Serves as Dink Master 2 of Pro Pulot Co., assisting in player development by helping members improve their skills, confidence, and understanding of the game.",
+
+    responsibilities:[
+        "Assist in coaching new members",
+        "Provide technical guidance during practices",
+        "Encourage continuous skill development",
+        "Support community training activities"
+    ]
 }
 
 };
