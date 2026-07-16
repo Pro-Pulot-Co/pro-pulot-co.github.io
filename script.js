@@ -254,7 +254,7 @@ const leaders = {
     rovelyn:{
         name:"Rovelyn Amil",
         position:"New Member Onboarding",
-        image:"images/officers/Rovelyn.jpg",
+        image:"images/officers/rovelyn.jpg",
         bio:"Creates a welcoming and friendly environment for every new member."
     },
 
