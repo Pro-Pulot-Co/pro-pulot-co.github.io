@@ -1222,3 +1222,52 @@ nav ul{
 .member-btn:hover {
     background: #fff;
 }
+/* ==========================
+   DIRECTORY CARD
+========================== */
+
+.directory-card{
+    background:#fff;
+    border-radius:16px;
+    overflow:hidden;
+    text-align:center;
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+    transition:.3s ease;
+}
+
+.directory-card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 15px 35px rgba(0,0,0,.15);
+}
+
+.directory-image{
+    display:block;
+}
+
+.directory-image img{
+    width:100%;
+    display:block;
+}
+
+.directory-card h3{
+    margin:18px 0 15px;
+    font-size:1.15rem;
+    color:#222;
+}
+
+.directory-btn{
+    display:inline-block;
+    margin-bottom:22px;
+    padding:10px 24px;
+    background:#d4af37;
+    color:#111;
+    text-decoration:none;
+    border-radius:30px;
+    font-weight:600;
+    transition:.3s ease;
+}
+
+.directory-btn:hover{
+    background:#111;
+    color:#fff;
+}
