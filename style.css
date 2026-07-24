@@ -745,13 +745,16 @@ nav ul{
 }
 
 .leader-card img{
-    width:100%;
-    height:320px;
+    width:130px;
+    height:130px;
     object-fit:cover;
+    border-radius:50%;
+    margin:20px auto 15px;
+    display:block;
 }
 
 .leader-card h3{
-    margin-top:20px;
+    margin-top:12px;
     font-size:24px;
 }
 
@@ -775,7 +778,7 @@ nav ul{
 }
 
 .leader-card p{
-    padding:0 22px 25px;
+    padding:0 20px 25px;
     line-height:1.7;
     color:#ddd;
 }
@@ -1172,7 +1175,7 @@ nav ul{
     background: #1f1f1f;
     border: 2px solid #d4af37;
     border-radius: 20px;
-    padding: 25px;
+    padding: 18px;
     text-align: center;
     transition: 0.3s ease;
 }
@@ -1249,11 +1252,12 @@ nav ul{
 }
 
 .directory-image img{
-    width:100%;
-    height:auto;
+    width:120px;
+    height:120px;
+    object-fit:cover;
+    border-radius:50%;
+    margin:auto;
     display:block;
-    border-radius:12px;
-    border:3px solid #d4af37;
 }
 
 .directory-card h3{
@@ -1291,4 +1295,27 @@ nav ul{
 
 #mission-vision .card{
     height:100%;
+}
+@media (max-width:768px){
+
+    .leader-card img{
+        width:90px;
+        height:90px;
+    }
+
+    .directory-image img{
+        width:85px;
+        height:85px;
+    }
+
+    .leader-card,
+    .directory-card{
+        padding:15px;
+    }
+
+    .leader-card h3,
+    .directory-card h3{
+        font-size:1rem;
+    }
+
 }
