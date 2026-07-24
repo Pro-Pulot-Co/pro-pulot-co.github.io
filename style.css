@@ -251,7 +251,7 @@ section{
     width:90%;
     max-width:1200px;
     margin:auto;
-    padding:100px 0;
+    padding:70px 0;
 }
 
 .section-title{
@@ -705,7 +705,7 @@ nav ul{
 ========================== */
 
 #leadership{
-    padding:70px 8%;
+    padding:50px 8%;
     background:#f8f8f8;
 }
 
@@ -1277,4 +1277,18 @@ nav ul{
 .directory-btn:hover{
     background:#111;
     color:#fff;
+}
+#mission-vision{
+    padding:70px 0;
+}
+
+.mission-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+    gap:30px;
+    margin-top:40px;
+}
+
+#mission-vision .card{
+    height:100%;
 }
