@@ -528,6 +528,180 @@ Abba:{
     }
 };
 
+const members = {
+
+Agnes:{
+    name:"Agnes",
+    title:"Official Member",
+    image:"images/Agnes.png",
+
+    tenure:"Official Member • Since 2026",
+
+    bio:"An active member of Pro Pulot Co. who values friendship, teamwork, and continuous improvement while helping foster a welcoming and supportive pickleball community.",
+
+    responsibilities:[
+        "Actively participates in club activities",
+        "Promotes teamwork and sportsmanship",
+        "Supports community events",
+        "Encourages a positive club environment"
+    ]
+},
+
+Cherry:{
+    name:"Cherry",
+    title:"Official Member",
+    image:"images/Cherry2.png",
+
+    tenure:"Official Member • Since 2026",
+
+    bio:"A dedicated member of Pro Pulot Co. who enjoys building lasting friendships through pickleball while contributing to the club's inclusive and energetic community.",
+
+    responsibilities:[
+        "Participates in club activities",
+        "Builds meaningful friendships",
+        "Supports community engagement",
+        "Promotes sportsmanship"
+    ]
+},
+
+CherryM:{
+    name:"Cherry M",
+    title:"Official Member",
+    image:"images/Cherry.png",
+
+    tenure:"Official Member • Since 2026",
+
+    bio:"A valued member of Pro Pulot Co. who contributes to the club's positive culture through active participation, teamwork, and a genuine passion for pickleball.",
+
+    responsibilities:[
+        "Supports club programs",
+        "Participates in community events",
+        "Encourages teamwork",
+        "Promotes a welcoming atmosphere"
+    ]
+},
+
+Derence:{
+    name:"Derence Gadiana",
+    title:"Official Member",
+    image:"images/Derence.png",
+
+    tenure:"Founding Member • Since 2026",
+
+    bio:"A founding member of Pro Pulot Co. recognized for mentoring fellow players, promoting skill development, and helping strengthen the club's culture of continuous learning.",
+
+    responsibilities:[
+        "Founding member of Pro Pulot Co.",
+        "Supports player development",
+        "Promotes teamwork and sportsmanship",
+        "Contributes to club activities"
+    ]
+},
+
+Diosa:{
+    name:"Diosa",
+    title:"Official Member",
+    image:"images/Diosa.png",
+
+    tenure:"Official Member • Since 2026",
+
+    bio:"An enthusiastic member of Pro Pulot Co. who enjoys connecting with fellow players while promoting friendship, respect, and sportsmanship within the community.",
+
+    responsibilities:[
+        "Participates in club events",
+        "Promotes friendship and respect",
+        "Supports community growth",
+        "Encourages positive engagement"
+    ]
+},
+
+Froii:{
+    name:"Froii Katipunan",
+    title:"Official Member",
+    image:"images/Froii.png",
+
+    tenure:"Founding Member • Since 2026",
+
+    bio:"A founding member of Pro Pulot Co. who exemplifies commitment, teamwork, and sportsmanship while helping cultivate a welcoming and supportive pickleball community.",
+
+    responsibilities:[
+        "Founding member of Pro Pulot Co.",
+        "Supports club activities and events",
+        "Promotes teamwork and sportsmanship",
+        "Contributes to community growth"
+    ]
+},
+
+Irik:{
+    name:"Irik Patria",
+    title:"Official Member",
+    image:"images/Irik3.png",
+
+    tenure:"Founding Member • Since 2026",
+
+    bio:"A founding member of Pro Pulot Co. recognized for leadership, collaboration, and dedication to building a strong and united pickleball community.",
+
+    responsibilities:[
+        "Founding member of Pro Pulot Co.",
+        "Promotes leadership through example",
+        "Supports community initiatives",
+        "Encourages positive member engagement"
+    ]
+},
+
+Irish:{
+    name:"Irish",
+    title:"Official Member",
+    image:"images/Irish.png",
+
+    tenure:"Official Member • Since 2026",
+
+    bio:"A valued member of Pro Pulot Co. who embraces friendship, teamwork, and continuous growth while contributing to the club's vibrant and inclusive community.",
+
+    responsibilities:[
+        "Participates in club activities",
+        "Supports community events",
+        "Builds meaningful friendships",
+        "Promotes sportsmanship"
+    ]
+},
+
+JD:{
+    name:"JD Altamarino",
+    title:"Official Member",
+    image:"images/JD.png",
+
+    tenure:"2nd Generation Member • Since 2026",
+
+    bio:"An active member of Pro Pulot Co. who contributes both on and off the court by supporting the club's digital initiatives while promoting innovation, teamwork, and community engagement.",
+
+    responsibilities:[
+        "Supports the club's digital initiatives",
+        "Promotes innovation and collaboration",
+        "Participates in club activities",
+        "Encourages community engagement"
+    ]
+},
+
+Jan:{
+    name:"Jan",
+    title:"Official Member",
+    image:"images/Knarly.png",
+
+    tenure:"Official Member • Since 2026",
+
+    bio:"A dedicated member of Pro Pulot Co. who values teamwork, sportsmanship, and meaningful connections while actively participating in the club's activities and events.",
+
+    responsibilities:[
+        "Participates in club activities",
+        "Supports a positive team culture",
+        "Promotes friendship and respect",
+        "Contributes to community engagement"
+    ]
+},
+
+};
+
 const leaderModal = document.getElementById("leader-modal");
 
 function loadLeader(id){
