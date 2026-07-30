@@ -943,6 +943,19 @@ nav ul{
     margin-bottom:20px;
 }
 
+.leader-modal.member-view #leader-photo{
+
+    width:100%;
+    max-width:420px;
+
+    height:auto;
+
+    border-radius:12px;
+
+    object-fit:contain;
+
+}
+
 #leader-name{
     margin-top:10px;
     margin-bottom:10px;
