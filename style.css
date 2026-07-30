@@ -995,21 +995,6 @@ nav ul{
     color:#c6922d;
 }
 
-#leader-photo{
-    width:220px;
-    height:220px;
-    object-fit:cover;
-    border-radius:50%;
-    border:6px solid #c6922d;
-    margin-bottom:25px;
-}
-
-#leader-name{
-    font-size:34px;
-    color:#222;
-    margin-bottom:8px;
-}
-
 #leader-bio{
     color:#555;
     line-height:1.8;
