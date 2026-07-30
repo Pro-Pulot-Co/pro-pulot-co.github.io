@@ -513,7 +513,7 @@ Tonet:{
     },
 
 Abba:{
-        name:"Bang Teves",
+        name:"Abba Teves",
         title:"Featured Special Member",
         image:"images/feature/member6.png",
 
@@ -531,7 +531,7 @@ Abba:{
 const members = {
 
 Agnes:{
-    name:"Agnes",
+    name:"Agnes Sumanoy",
     title:"Official Member",
     image:"images/Agnes.png",
 
@@ -548,7 +548,7 @@ Agnes:{
 },
 
 Cherry:{
-    name:"Cherry",
+    name:"Cherry Torres-Flores",
     title:"Official Member",
     image:"images/Cherry2.png",
 
@@ -565,7 +565,7 @@ Cherry:{
 },
 
 CherryM:{
-    name:"Cherry M",
+    name:"Cherry Bermudo",
     title:"Official Member",
     image:"images/Cherry.png",
 
@@ -599,7 +599,7 @@ Derence:{
 },
 
 Diosa:{
-    name:"Diosa",
+    name:"Diosa Talledo",
     title:"Official Member",
     image:"images/Diosa.png",
 
@@ -616,7 +616,7 @@ Diosa:{
 },
 
 Froii:{
-    name:"Froii Katipunan",
+    name:"Froilan Katipunan",
     title:"Official Member",
     image:"images/Froii.png",
 
@@ -633,7 +633,7 @@ Froii:{
 },
 
 Irik:{
-    name:"Irik Patria",
+    name:"Eric Patria",
     title:"Official Member",
     image:"images/Irik3.png",
 
@@ -650,7 +650,7 @@ Irik:{
 },
 
 Irish:{
-    name:"Irish",
+    name:"Irish Silot",
     title:"Official Member",
     image:"images/Irish.png",
 
@@ -667,7 +667,7 @@ Irish:{
 },
 
 JD:{
-    name:"JD Altamarino",
+    name:"Joe Don Altamarino",
     title:"Official Member",
     image:"images/JD.png",
 
@@ -684,7 +684,7 @@ JD:{
 },
 
 Jan:{
-    name:"Jan",
+    name:"Jan Insao",
     title:"Official Member",
     image:"images/Knarly.png",
 
@@ -717,7 +717,7 @@ Jessan:{
 
 Jikoy:{
 
-    name:"Jikoy",
+    name:"Jericho Flores",
     title:"Official Member",
     image:"images/Jikoy.png",
     tenure:"1st Gen Member • Since 2026",
@@ -762,7 +762,7 @@ Leigh:{
 
 Louell:{
 
-    name:"Louell",
+    name:"Louell Catipay",
     title:"Official Member",
     image:"images/Louell.png",
     tenure:"1st Gen Member • Since 2026",
@@ -807,7 +807,7 @@ Roch:{
 
 Rochelle:{
 
-    name:"Rochelle",
+    name:"Rochelle Torres",
     title:"Official Member",
     image:"images/Rochelle.png",
     tenure:"2nd Gen Member • Since 2026",
@@ -822,7 +822,7 @@ Rochelle:{
 
 Rovie:{
 
-    name:"Rovie",
+    name:"Rovelyn Amil",
     title:"Official Member",
     image:"images/Rovie2.png",
     tenure:"2nd Gen Member • Since 2026",
@@ -837,7 +837,7 @@ Rovie:{
 
 Ryle:{
 
-    name:"Ryle",
+    name:"Ryle Merecido",
     title:"Official Member",
     image:"images/Ryle.png",
     tenure:"1st Gen Member • Since 2026",
@@ -867,7 +867,7 @@ Sheena:{
 
 Stancy:{
 
-    name:"Stancy",
+    name:"Stancy Pacilan",
     title:"Official Member",
     image:"images/Stancy.png",
     tenure:"1st Gen Member • Since 2026",
