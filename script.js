@@ -824,7 +824,7 @@ Rovie:{
 
     name:"Rovie",
     title:"Official Member",
-    image:"images/Rovie.png",
+    image:"images/Rovie2.png",
     tenure:"2nd Gen Member • Since 2026",
     bio:"Rovie is an energetic member who enjoys both the recreational and competitive sides of pickleball. Through active participation and positive engagement, Rovie helps create a supportive community for everyone.",
     responsibilities:[
