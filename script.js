@@ -888,6 +888,9 @@ function loadLeader(id){
 
     currentLeader = id;
     currentProfileType = "leader";
+
+    leaderModal.classList.remove("member-view");
+    
     document.getElementById("profile-type-title").textContent =
     "Official Leadership Profile";
 
@@ -931,6 +934,9 @@ function loadSpecialMember(id){
 
     currentLeader = id;
     currentProfileType = "special";
+
+    leaderModal.classList.remove("member-view");
+    
     document.getElementById("profile-type-title").textContent =
     "Featured Special Member";
 
@@ -973,6 +979,8 @@ function loadMember(id){
 
     currentLeader = id;
     currentProfileType = "member";
+
+    leaderModal.classList.add("member-view");
 
     document.getElementById("profile-type-title").textContent = "Member Profile";
 
