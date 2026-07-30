@@ -982,7 +982,7 @@ function loadMember(id){
 
     leaderModal.classList.add("member-view");
 
-    document.getElementById("profile-type-title").textContent = "Member Profile";
+    document.getElementById("profile-type-title").textContent = "Member ID";
 
     document.getElementById("profile-heading").textContent =
     "Member Profile";
