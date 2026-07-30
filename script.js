@@ -777,7 +777,7 @@ Louell:{
 
 Philip:{
 
-    name:"Philip",
+    name:"Philip Clavecillas",
     title:"Official Member",
     image:"images/Philip.png",
     tenure:"1st Gen Member • Since 2026",
