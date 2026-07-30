@@ -890,6 +890,13 @@ function loadLeader(id){
     currentProfileType = "leader";
     document.getElementById("profile-type-title").textContent =
     "Official Leadership Profile";
+
+    document.getElementById("profile-heading").textContent =
+    "Leadership Profile";
+
+    document.getElementById("responsibility-heading").textContent =
+    "Primary Responsibilities";
+    
     const leader = leaders[id];
 
     console.log("Position:", leader.position);
@@ -926,6 +933,13 @@ function loadSpecialMember(id){
     currentProfileType = "special";
     document.getElementById("profile-type-title").textContent =
     "Featured Special Member";
+
+    document.getElementById("profile-heading").textContent =
+    "Featured Profile";
+
+    document.getElementById("responsibility-heading").textContent =
+    "Highlights";
+    
     const member = specialMembers[id];
 
     document.getElementById("leader-photo").src = member.image;
@@ -962,6 +976,12 @@ function loadMember(id){
 
     document.getElementById("profile-type-title").textContent = "Member Profile";
 
+    document.getElementById("profile-heading").textContent =
+    "Member Profile";
+
+    document.getElementById("responsibility-heading").textContent =
+    "Community Contributions";
+    
     const member = members[id];
 
     document.getElementById("leader-photo").src = member.image;
