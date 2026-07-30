@@ -499,7 +499,7 @@ Tonet:{
 
         tenure:"Special Guest",
 
-        bio:"An active member of Pro Pulot Co. who embodies the values of teamwork, sportsmanship, and camaraderie, consistently contributing to a positive and welcoming pickleball community."
+        bio:"An active member of Pro Pulot Co. who embodies the values of teamwork, sportsmanship, and camaraderie, consistently contributing to a positive and welcoming pickleball community.",
 
         responsibilities:[
         "Fostered friendship and unity",
@@ -515,7 +515,7 @@ Abba:{
 
         tenure:"Special Guest",
 
-        bio:"A proud member of Pro Pulot Co., dedicated to fostering friendship, continuous growth, and a shared passion for pickleball while helping strengthen the spirit of the community."
+        bio:"A proud member of Pro Pulot Co., dedicated to fostering friendship, continuous growth, and a shared passion for pickleball while helping strengthen the spirit of the community.",
         responsibilities:[
         "Fostered friendship and unity",
         "Shared positive experiences with members",
