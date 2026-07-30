@@ -230,7 +230,11 @@ const specialOrder = [
 
     "Randy",
 
-    "Roswel"
+    "Roswel",
+
+    "Tonet",
+
+    "Abba"
 
 ];
 
