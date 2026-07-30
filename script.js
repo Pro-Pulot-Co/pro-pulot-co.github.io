@@ -651,6 +651,10 @@ document.getElementById("leader-next").onclick = function(){
 
     if(currentProfileType === "special"){
 
+        console.log(currentLeader);
+        console.log(specialOrder);
+        console.log(specialOrder.indexOf(currentLeader));
+        
         let index = specialOrder.indexOf(currentLeader);
 
         index++;
