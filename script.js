@@ -535,7 +535,7 @@ Agnes:{
     title:"Official Member",
     image:"images/Agnes.png",
 
-    tenure:"Official Member • Since 2026",
+    tenure:"1st Gen Member • Since 2026",
 
     bio:"An active member of Pro Pulot Co. who values friendship, teamwork, and continuous improvement while helping foster a welcoming and supportive pickleball community.",
 
@@ -552,7 +552,7 @@ Cherry:{
     title:"Official Member",
     image:"images/Cherry2.png",
 
-    tenure:"Official Member • Since 2026",
+    tenure:"1st Gen Member • Since 2026",
 
     bio:"A dedicated member of Pro Pulot Co. who enjoys building lasting friendships through pickleball while contributing to the club's inclusive and energetic community.",
 
@@ -569,7 +569,7 @@ CherryM:{
     title:"Official Member",
     image:"images/Cherry.png",
 
-    tenure:"Official Member • Since 2026",
+    tenure:"3rd Gen Member • Since 2026",
 
     bio:"A valued member of Pro Pulot Co. who contributes to the club's positive culture through active participation, teamwork, and a genuine passion for pickleball.",
 
@@ -603,7 +603,7 @@ Diosa:{
     title:"Official Member",
     image:"images/Diosa.png",
 
-    tenure:"Official Member • Since 2026",
+    tenure:"3rd Gen Member • Since 2026",
 
     bio:"An enthusiastic member of Pro Pulot Co. who enjoys connecting with fellow players while promoting friendship, respect, and sportsmanship within the community.",
 
@@ -654,7 +654,7 @@ Irish:{
     title:"Official Member",
     image:"images/Irish.png",
 
-    tenure:"Official Member • Since 2026",
+    tenure:"3rd Gen Member • Since 2026",
 
     bio:"A valued member of Pro Pulot Co. who embraces friendship, teamwork, and continuous growth while contributing to the club's vibrant and inclusive community.",
 
@@ -671,7 +671,7 @@ JD:{
     title:"Official Member",
     image:"images/JD.png",
 
-    tenure:"2nd Generation Member • Since 2026",
+    tenure:"2nd Gen Member • Since 2026",
 
     bio:"An active member of Pro Pulot Co. who contributes both on and off the court by supporting the club's digital initiatives while promoting innovation, teamwork, and community engagement.",
 
@@ -688,7 +688,7 @@ Jan:{
     title:"Official Member",
     image:"images/Knarly.png",
 
-    tenure:"Official Member • Since 2026",
+    tenure:"2nd Gen Member • Since 2026",
 
     bio:"A dedicated member of Pro Pulot Co. who values teamwork, sportsmanship, and meaningful connections while actively participating in the club's activities and events.",
 
@@ -705,7 +705,7 @@ Jessan:{
     name:"Jessan Marie Gravador",
     title:"Official Member",
     image:"images/Jessan.png",
-    tenure:"Since 2026",
+    tenure:"1st Gen Member • Since 2026",
     bio:"Jessan is a dependable and enthusiastic member of Pro Pulot Co. who consistently supports the community through active participation and teamwork. She is known for her positive attitude, sportsmanship, and willingness to help both on and off the court.",
     responsibilities:[
         "Actively participates in club activities and tournaments",
@@ -720,7 +720,7 @@ Jikoy:{
     name:"Jikoy",
     title:"Official Member",
     image:"images/Jikoy.png",
-    tenure:"Since 2026",
+    tenure:"1st Gen Member • Since 2026",
     bio:"Jikoy brings enthusiasm and energy to every game. As an active member of the community, he values camaraderie, continuous improvement, and creating an enjoyable environment for everyone.",
     responsibilities:[
         "Represents the values of Pro Pulot Co.",
@@ -735,7 +735,7 @@ Justice:{
     name:"Justice Villanueva",
     title:"Official Member",
     image:"images/Justice.png",
-    tenure:"Since 2026",
+    tenure:"Founding Member • Since 2026",
     bio:"Justice is one of the welcoming faces of Pro Pulot Co., always helping new members feel comfortable and included. His approachable personality and commitment to the community make him a valuable part of the organization.",
     responsibilities:[
         "Assists in welcoming new members",
@@ -750,7 +750,7 @@ Leigh:{
     name:"Leigh Pacilan",
     title:"Official Member",
     image:"images/Leigh.png",
-    tenure:"Since 2026",
+    tenure:"Founding Member • Since 2026",
     bio:"Leigh is a dedicated member whose passion for pickleball inspires others. Through leadership, teamwork, and consistent participation, Leigh contributes to the growth and success of the Pro Pulot Co. community.",
     responsibilities:[
         "Supports club programs and activities",
@@ -765,7 +765,7 @@ Louell:{
     name:"Louell",
     title:"Official Member",
     image:"images/Louell.png",
-    tenure:"Since 2026",
+    tenure:"1st Gen Member • Since 2026",
     bio:"Louell is an active member who enjoys building friendships through pickleball. With a positive outlook and cooperative spirit, Louell contributes to the welcoming culture of Pro Pulot Co.",
     responsibilities:[
         "Participates in community events",
@@ -780,7 +780,7 @@ Philip:{
     name:"Philip",
     title:"Official Member",
     image:"images/Philip.png",
-    tenure:"Since 2026",
+    tenure:"1st Gen Member • Since 2026",
     bio:"Philip is a committed member of Pro Pulot Co. who enjoys the competitive and social aspects of pickleball. He consistently contributes to maintaining a welcoming environment while encouraging fellow members to improve their game.",
     responsibilities:[
         "Actively participates in club activities",
@@ -795,7 +795,7 @@ Roch:{
     name:"Roch Laquinon",
     title:"Official Member",
     image:"images/Roch.png",
-    tenure:"Since 2026",
+    tenure:"1st Gen Member • Since 2026",
     bio:"Roch is a passionate member dedicated to fostering an inclusive and enjoyable pickleball community. Through active participation and support for new members, Roch helps strengthen the club's culture.",
     responsibilities:[
         "Assists in community activities",
@@ -810,7 +810,7 @@ Rochelle:{
     name:"Rochelle",
     title:"Official Member",
     image:"images/Rochelle.png",
-    tenure:"Since 2026",
+    tenure:"2nd Gen Member • Since 2026",
     bio:"Rochelle brings enthusiasm, positivity, and dedication to every club activity. She enjoys building friendships through pickleball while contributing to the continued growth of the Pro Pulot Co. family.",
     responsibilities:[
         "Participates in club events",
@@ -825,7 +825,7 @@ Rovie:{
     name:"Rovie",
     title:"Official Member",
     image:"images/Rovie.png",
-    tenure:"Since 2026",
+    tenure:"2nd Gen Member • Since 2026",
     bio:"Rovie is an energetic member who enjoys both the recreational and competitive sides of pickleball. Through active participation and positive engagement, Rovie helps create a supportive community for everyone.",
     responsibilities:[
         "Supports club activities",
@@ -840,7 +840,7 @@ Ryle:{
     name:"Ryle",
     title:"Official Member",
     image:"images/Ryle.png",
-    tenure:"Since 2026",
+    tenure:"1st Gen Member • Since 2026",
     bio:"Ryle is a valued member of Pro Pulot Co. known for dedication, teamwork, and a genuine passion for pickleball. He contributes to the club by participating actively and helping build a strong sense of community.",
     responsibilities:[
         "Represents the club positively",
@@ -855,7 +855,7 @@ Sheena:{
     name:"Sheena Adlao",
     title:"Official Member",
     image:"images/Sheena.png",
-    tenure:"Since 2026",
+    tenure:"Founding Member • Since 2026",
     bio:"Sheena is a dedicated member of Pro Pulot Co. who values teamwork, friendship, and continuous growth in the sport of pickleball. Her positive attitude and active participation contribute to the welcoming culture of the community.",
     responsibilities:[
         "Supports club activities and events",
@@ -870,7 +870,7 @@ Stancy:{
     name:"Stancy",
     title:"Official Member",
     image:"images/Stancy.png",
-    tenure:"Since 2026",
+    tenure:"1st Gen Member • Since 2026",
     bio:"Stancy is an enthusiastic member who enjoys the competitive spirit and community that Pro Pulot Co. offers. Through active participation and sportsmanship, Stancy helps strengthen the club's vibrant environment.",
     responsibilities:[
         "Participates in community activities",
