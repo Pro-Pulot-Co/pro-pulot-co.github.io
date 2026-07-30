@@ -883,15 +883,13 @@ nav ul{
     background:#fff;
     width:90%;
     max-width:900px;
-
     border-radius:22px;
-
     padding:40px;
-
     display:flex;
-
     gap:40px;
-
+    max-height:90vh;
+    overflow-y:auto;
+   
     align-items:flex-start;
 
     position:relative;
@@ -946,7 +944,7 @@ nav ul{
 .leader-modal.member-view #leader-photo{
 
     width:100%;
-    max-width:420px;
+    max-width:230px;
 
     height:auto;
 
@@ -959,16 +957,17 @@ nav ul{
 #leader-name{
     margin-top:10px;
     margin-bottom:10px;
+    font-size:2rem;
 }
 
 #leader-position{
     display:inline-block;
     background:#c6922d;
     color:#fff;
-    padding:8px 22px;
+    padding:8px 18px;
     border-radius:30px;
     text-transform:uppercase;
-    font-size:14px;
+    font-size:9px;
     letter-spacing:1px;
 }
 
@@ -1028,7 +1027,7 @@ nav ul{
 
 .profile-section{
     margin:25px 0;
-    padding-bottom:20px;
+    padding-bottom:14px;
     border-bottom:1px solid #e5e5e5;
 }
 
@@ -1038,14 +1037,14 @@ nav ul{
 
 .profile-section h3{
     color:#c6922d;
-    margin-bottom:12px;
-    font-size:20px;
+    margin-bottom:6px;
+    font-size:1.5px;
     font-family:'Montserrat',sans-serif;
 }
 
 .profile-section p{
     color:#555;
-    line-height:1.8;
+    line-height:1.5;
 }
 
 .profile-section ul{
@@ -1385,5 +1384,22 @@ nav ul{
     .directory-card h3{
         font-size:1rem;
     }
+
+}
+#leader-responsibilities{
+
+    margin: 10px 0 0;
+
+    padding-left: 22px;
+
+}
+
+#leader-responsibilities li{
+
+    font-size: 1rem;
+
+    line-height: 1.4;
+
+    margin-bottom: 6px;
 
 }
