@@ -960,8 +960,7 @@ function loadMember(id){
     currentLeader = id;
     currentProfileType = "member";
 
-    document.getElementById("profile-type-title").textContent =
-    "Official Member Profile";
+    document.getElementById("profile-type-title").textContent = "Member Profile";
 
     const member = members[id];
 
