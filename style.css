@@ -938,7 +938,7 @@ nav ul{
     object-fit:cover;
     border-radius:50%;
     border:5px solid #c6922d;
-    margin-bottom:20px;
+    margin-bottom:12px;
 }
 
 .leader-modal.member-view #leader-photo{
@@ -955,9 +955,10 @@ nav ul{
 }
 
 #leader-name{
-    margin-top:10px;
-    margin-bottom:10px;
-    font-size:2rem;
+    margin-top:4px;
+    margin-bottom:8px;
+    font-size:1.3rem;
+    line-height:1.2;
 }
 
 #leader-position{
