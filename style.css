@@ -1239,12 +1239,12 @@ nav ul{
 }
 
 .directory-card img {
-    width: 160px;
-    height: 160px;
+    width:150px;
+    height:150px;
     object-fit: cover;
-    border-radius: 50%;
-    border: 5px solid #d4af37;
-    margin-bottom: 14px;
+    border-radius:50%;
+    border:5px solid #d4af37;
+    margin-bottom:20px;
 }
 
 .directory-card h3 {
