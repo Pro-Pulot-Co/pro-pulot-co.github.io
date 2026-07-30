@@ -700,6 +700,186 @@ Jan:{
     ]
 },
 
+Jessan:{
+
+    name:"Jessan Marie Gravador",
+    title:"Official Member",
+    image:"images/Jessan.png",
+    tenure:"Since 2026",
+    bio:"Jessan is a dependable and enthusiastic member of Pro Pulot Co. who consistently supports the community through active participation and teamwork. She is known for her positive attitude, sportsmanship, and willingness to help both on and off the court.",
+    responsibilities:[
+        "Actively participates in club activities and tournaments",
+        "Promotes teamwork and sportsmanship",
+        "Supports community events and initiatives"
+    ]
+
+},
+
+Jikoy:{
+
+    name:"Jikoy",
+    title:"Official Member",
+    image:"images/Jikoy.png",
+    tenure:"Since 2026",
+    bio:"Jikoy brings enthusiasm and energy to every game. As an active member of the community, he values camaraderie, continuous improvement, and creating an enjoyable environment for everyone.",
+    responsibilities:[
+        "Represents the values of Pro Pulot Co.",
+        "Encourages fellow members during games",
+        "Participates in club activities"
+    ]
+
+},
+
+Justice:{
+
+    name:"Justice Villanueva",
+    title:"Official Member",
+    image:"images/Justice.png",
+    tenure:"Since 2026",
+    bio:"Justice is one of the welcoming faces of Pro Pulot Co., always helping new members feel comfortable and included. His approachable personality and commitment to the community make him a valuable part of the organization.",
+    responsibilities:[
+        "Assists in welcoming new members",
+        "Supports onboarding activities",
+        "Promotes an inclusive community"
+    ]
+
+},
+
+Leigh:{
+
+    name:"Leigh Pacilan",
+    title:"Official Member",
+    image:"images/Leigh.png",
+    tenure:"Since 2026",
+    bio:"Leigh is a dedicated member whose passion for pickleball inspires others. Through leadership, teamwork, and consistent participation, Leigh contributes to the growth and success of the Pro Pulot Co. community.",
+    responsibilities:[
+        "Supports club programs and activities",
+        "Encourages member engagement",
+        "Promotes teamwork and sportsmanship"
+    ]
+
+},
+
+Louell:{
+
+    name:"Louell",
+    title:"Official Member",
+    image:"images/Louell.png",
+    tenure:"Since 2026",
+    bio:"Louell is an active member who enjoys building friendships through pickleball. With a positive outlook and cooperative spirit, Louell contributes to the welcoming culture of Pro Pulot Co.",
+    responsibilities:[
+        "Participates in community events",
+        "Supports fellow members",
+        "Represents the values of the club"
+    ]
+
+},
+
+Philip:{
+
+    name:"Philip",
+    title:"Official Member",
+    image:"images/Philip.png",
+    tenure:"Since 2026",
+    bio:"Philip is a committed member of Pro Pulot Co. who enjoys the competitive and social aspects of pickleball. He consistently contributes to maintaining a welcoming environment while encouraging fellow members to improve their game.",
+    responsibilities:[
+        "Actively participates in club activities",
+        "Supports fellow members",
+        "Promotes sportsmanship and teamwork"
+    ]
+
+},
+
+Roch:{
+
+    name:"Roch Laquinon",
+    title:"Official Member",
+    image:"images/Roch.png",
+    tenure:"Since 2026",
+    bio:"Roch is a passionate member dedicated to fostering an inclusive and enjoyable pickleball community. Through active participation and support for new members, Roch helps strengthen the club's culture.",
+    responsibilities:[
+        "Assists in community activities",
+        "Supports new member engagement",
+        "Represents Pro Pulot Co. with pride"
+    ]
+
+},
+
+Rochelle:{
+
+    name:"Rochelle",
+    title:"Official Member",
+    image:"images/Rochelle.png",
+    tenure:"Since 2026",
+    bio:"Rochelle brings enthusiasm, positivity, and dedication to every club activity. She enjoys building friendships through pickleball while contributing to the continued growth of the Pro Pulot Co. family.",
+    responsibilities:[
+        "Participates in club events",
+        "Encourages teamwork",
+        "Promotes a welcoming environment"
+    ]
+
+},
+
+Rovie:{
+
+    name:"Rovie",
+    title:"Official Member",
+    image:"images/Rovie.png",
+    tenure:"Since 2026",
+    bio:"Rovie is an energetic member who enjoys both the recreational and competitive sides of pickleball. Through active participation and positive engagement, Rovie helps create a supportive community for everyone.",
+    responsibilities:[
+        "Supports club activities",
+        "Encourages fellow members",
+        "Demonstrates good sportsmanship"
+    ]
+
+},
+
+Ryle:{
+
+    name:"Ryle",
+    title:"Official Member",
+    image:"images/Ryle.png",
+    tenure:"Since 2026",
+    bio:"Ryle is a valued member of Pro Pulot Co. known for dedication, teamwork, and a genuine passion for pickleball. He contributes to the club by participating actively and helping build a strong sense of community.",
+    responsibilities:[
+        "Represents the club positively",
+        "Participates in tournaments and events",
+        "Supports community engagement"
+    ]
+
+},
+
+Sheena:{
+
+    name:"Sheena Adlao",
+    title:"Official Member",
+    image:"images/Sheena.png",
+    tenure:"Since 2026",
+    bio:"Sheena is a dedicated member of Pro Pulot Co. who values teamwork, friendship, and continuous growth in the sport of pickleball. Her positive attitude and active participation contribute to the welcoming culture of the community.",
+    responsibilities:[
+        "Supports club activities and events",
+        "Encourages teamwork and camaraderie",
+        "Promotes a positive member experience"
+    ]
+
+},
+
+Stancy:{
+
+    name:"Stancy",
+    title:"Official Member",
+    image:"images/Stancy.png",
+    tenure:"Since 2026",
+    bio:"Stancy is an enthusiastic member who enjoys the competitive spirit and community that Pro Pulot Co. offers. Through active participation and sportsmanship, Stancy helps strengthen the club's vibrant environment.",
+    responsibilities:[
+        "Participates in community activities",
+        "Supports fellow members",
+        "Represents the values of Pro Pulot Co."
+    ]
+
+},
+    
 };
 
 const leaderModal = document.getElementById("leader-modal");
