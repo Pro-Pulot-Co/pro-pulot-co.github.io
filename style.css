@@ -1272,19 +1272,20 @@ nav ul{
     margin-bottom: 20px;
 }
 
-.directory-btn {
-    display: inline-block;
-    padding: 10px 22px;
-    background: #d4af37;
-    color: #111;
-    border-radius: 30px;
-    text-decoration: none;
-    font-weight: 600;
-    transition: 0.3s ease;
+.directory-btn{
+    display:inline-block;
+    margin-top:8px;
+    padding:10px 24px;
+    color:#d4af37;
+    text-decoration:none;
+    font-weight:600;
+    font-size:1rem;
+    transition:.3s ease;
 }
 
-.directory-btn:hover {
-    background: #fff;
+.directory-btn:hover{
+    color:#ffffff;
+    text-decoration:none;
 }
 
 #mission-vision{
@@ -1309,14 +1310,14 @@ nav ul{
     }
 
     .directory-image img{
-        width:110px;
-        height:110px;
+        width:140px;
+        height:140px;
     }
 
     .leader-card,
     .directory-card{
-        padding:15px;
-    }
+    padding:28px 22px;
+      }
 
     .leader-card h3,
     .directory-card h3{
