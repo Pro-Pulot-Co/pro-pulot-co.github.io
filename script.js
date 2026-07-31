@@ -1079,30 +1079,22 @@ document.getElementById("leader-next").onclick = function(){
 
     if(currentProfileType === "special"){
 
-        console.log(currentLeader);
-        console.log(specialOrder);
-        console.log(specialOrder.indexOf(currentLeader));
-        
         let index = specialOrder.indexOf(currentLeader);
-
-        index++;
-
-        if(index >= specialOrder.length){
-            index = 0;
-        }
-
+        index = (index + 1) % specialOrder.length;
         loadSpecialMember(specialOrder[index]);
+
+    }else if(currentProfileType === "member"){
+
+        const memberOrder = Object.keys(members);
+
+        let index = memberOrder.indexOf(currentLeader);
+        index = (index + 1) % memberOrder.length;
+        loadMember(memberOrder[index]);
 
     }else{
 
         let index = leaderOrder.indexOf(currentLeader);
-
-        index++;
-
-        if(index >= leaderOrder.length){
-            index = 0;
-        }
-
+        index = (index + 1) % leaderOrder.length;
         loadLeader(leaderOrder[index]);
 
     }
@@ -1114,25 +1106,21 @@ document.getElementById("leader-prev").onclick = function(){
     if(currentProfileType === "special"){
 
         let index = specialOrder.indexOf(currentLeader);
-
-        index--;
-
-        if(index < 0){
-            index = specialOrder.length - 1;
-        }
-
+        index = (index - 1 + specialOrder.length) % specialOrder.length;
         loadSpecialMember(specialOrder[index]);
+
+    }else if(currentProfileType === "member"){
+
+        const memberOrder = Object.keys(members);
+
+        let index = memberOrder.indexOf(currentLeader);
+        index = (index - 1 + memberOrder.length) % memberOrder.length;
+        loadMember(memberOrder[index]);
 
     }else{
 
         let index = leaderOrder.indexOf(currentLeader);
-
-        index--;
-
-        if(index < 0){
-            index = leaderOrder.length - 1;
-        }
-
+        index = (index - 1 + leaderOrder.length) % leaderOrder.length;
         loadLeader(leaderOrder[index]);
 
     }
