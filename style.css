@@ -1247,6 +1247,22 @@ nav ul{
     margin-bottom:20px;
 }
 
+.directory-image{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin:25px auto 0;
+}
+
+.directory-image img{
+    width:160px;
+    height:160px;
+    object-fit:cover;
+    border-radius:50%;
+    border:5px solid #d4af37;
+    display:block;
+}
+
 .directory-card h3 {
     color: #fff;
     margin-bottom: 8px;
@@ -1278,64 +1294,7 @@ nav ul{
 .member-btn:hover {
     background: #fff;
 }
-/* ==========================
-   DIRECTORY CARD
-========================== */
 
-.directory-card{
-    background:#fff;
-    border-radius:16px;
-    overflow:hidden;
-    text-align:center;
-    box-shadow:0 8px 20px rgba(0,0,0,.08);
-    transition:.3s ease;
-}
-
-.directory-card:hover{
-    transform:translateY(-8px);
-    box-shadow:0 15px 35px rgba(0,0,0,.15);
-}
-
-.directory-image{
-    display:inline-flex;
-    justify-content:center;
-    align-items:center;
-    width:240px;
-    margin:25px auto 0;
-}
-
-.directory-image img{
-    width:150px;
-    height:150px;
-    object-fit:cover;
-    border-radius:50%;
-    border:5px solid #d4af37;
-    margin:auto;
-    display:block;
-}
-
-.directory-card h3{
-    margin:18px 0 15px;
-    font-size:1.15rem;
-    color:#222;
-}
-
-.directory-btn{
-    display:inline-block;
-    margin-bottom:22px;
-    padding:10px 24px;
-    background:#d4af37;
-    color:#111;
-    text-decoration:none;
-    border-radius:30px;
-    font-weight:600;
-    transition:.3s ease;
-}
-
-.directory-btn:hover{
-    background:#111;
-    color:#fff;
-}
 #mission-vision{
     padding:70px 0;
 }
