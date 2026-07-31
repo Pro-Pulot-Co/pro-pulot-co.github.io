@@ -1224,6 +1224,7 @@ nav ul{
     grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
     gap: 25px;
 }
+
 .directory-card {
     background: #1f1f1f;
     border: 2px solid #d4af37;
@@ -1236,15 +1237,6 @@ nav ul{
 .directory-card:hover {
     transform: translateY(-6px);
     box-shadow: 0 12px 25px rgba(0,0,0,.18);
-}
-
-.directory-card img {
-    width:150px;
-    height:150px;
-    object-fit: cover;
-    border-radius:50%;
-    border:5px solid #d4af37;
-    margin-bottom:20px;
 }
 
 .directory-image{
@@ -1280,7 +1272,7 @@ nav ul{
     margin-bottom: 20px;
 }
 
-.member-btn {
+.directory-btn {
     display: inline-block;
     padding: 10px 22px;
     background: #d4af37;
@@ -1291,7 +1283,7 @@ nav ul{
     transition: 0.3s ease;
 }
 
-.member-btn:hover {
+.directory-btn:hover {
     background: #fff;
 }
 
@@ -1317,8 +1309,8 @@ nav ul{
     }
 
     .directory-image img{
-        width:85px;
-        height:85px;
+        width:110px;
+        height:110px;
     }
 
     .leader-card,
