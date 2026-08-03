@@ -1114,6 +1114,7 @@ nav ul{
 .leader-navigation button:hover{
     background:#a67d1d;
 }
+
 @media(max-width:900px){
 
     .leader-modal-content{
@@ -1148,11 +1149,21 @@ nav ul{
 
    .leader-close{
 
-    top:15px;
+    top:10px;
 
-    left:15px;
+    right:12px;
 
-    right:auto;
+    left:auto;
+
+    font-size:28px;
+
+    z-index:1000;
+
+}
+
+   .leader-modal-content{
+
+    padding-top:55px;
 
 }
    
