@@ -598,6 +598,17 @@ nav ul{
     display:inline-block;
 
 }
+
+.member-grid{
+
+    grid-template-columns:repeat(2,130px);
+
+    justify-content:center;
+
+    gap:22px;
+
+}
+
 /* ==========================
    LIGHTBOX
 ========================== */
@@ -1214,10 +1225,16 @@ nav ul{
     box-shadow: 0 0 10px rgba(212, 175, 55, 0.35);
 }
 
-.member-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-    gap: 25px;
+.member-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fill,130px);
+
+    justify-content:center;
+
+    gap:28px;
+
 }
 
 .directory-item{
