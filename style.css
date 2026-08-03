@@ -1337,3 +1337,28 @@ nav ul{
     margin-bottom: 6px;
 
 }
+#member-preview{
+
+    position:fixed;
+
+    display:none;
+
+    z-index:9999;
+
+    pointer-events:auto;
+
+    transition:.25s;
+
+}
+
+#member-preview img{
+
+    width:280px;
+
+    border-radius:18px;
+
+    box-shadow:0 25px 50px rgba(0,0,0,.35);
+
+    cursor:pointer;
+
+}
