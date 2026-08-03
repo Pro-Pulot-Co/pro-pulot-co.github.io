@@ -1128,17 +1128,13 @@ document.querySelectorAll(".directory-photo").forEach(photo=>{
 
 });
 
-document.querySelectorAll(".featured-btn").forEach(button=>{
+document.querySelectorAll(".featured-photo").forEach(photo=>{
 
-    button.addEventListener("click",function(e){
+    photo.addEventListener("click", function(){
 
-        e.preventDefault();
+        loadSpecial(this.dataset.special);
 
-        const id = this.dataset.special;
-
-        loadSpecialMember(id);
-
-        leaderModal.classList.add("active");
+        specialModal.classList.add("active");
 
     });
 
