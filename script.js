@@ -621,7 +621,7 @@ Diosa:{
     thumbnail:"images/directory/Diosa2.png",
     preview:"images/Diosa.png",
     
-    image:"images/Diosa.png",
+    image:"images/Diosa2.png",
 
     tenure:"3rd Gen Member • Since 2026",
 
