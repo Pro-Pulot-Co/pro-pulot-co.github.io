@@ -1132,60 +1132,53 @@ nav ul{
 }
 
 .featured-grid{
+
     display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(230px,1fr));
-    gap:35px;
+
+    grid-template-columns:repeat(auto-fill,130px);
+
+    justify-content:center;
+
+    gap:28px;
+
 }
 
-.featured-card{
-    background:#fff;
-    border:2px solid #c6922d;
-    border-radius:20px;
-    padding:35px 25px;
-    transition:.35s;
-    box-shadow:0 12px 30px rgba(0,0,0,.08);
+.featured-item{
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
 }
 
-.featured-card:hover{
-    transform:translateY(-10px);
-    box-shadow:0 20px 40px rgba(0,0,0,.15);
-}
+.featured-photo{
 
-.featured-card img{
-    width:150px;
-    height:150px;
+    width:140px;
+
+    height:140px;
+
     object-fit:cover;
+
     border-radius:50%;
-    border:5px solid #c6922d;
-    margin-bottom:20px;
+
+    border:4px solid #c6922d;
+
+    cursor:pointer;
+
+    transition:.35s;
+
 }
 
-.featured-card h3{
-    font-size:24px;
-    margin-bottom:8px;
-    color:#222;
+.featured-photo:hover{
+
+    transform:scale(1.08);
+
+    box-shadow:0 12px 28px rgba(198,146,45,.35);
+
 }
 
-.featured-card span{
-    display:inline-block;
-    color:#c6922d;
-    font-weight:600;
-    margin-bottom:25px;
-}
-
-.featured-btn{
-    display:inline-block;
-    padding:12px 28px;
-    background:#c6922d;
-    color:#fff;
-    border-radius:40px;
-    text-decoration:none;
-    transition:.3s;
-}
-
-.featured-btn:hover{
-    background:#a67d1d;
-}
 /* ==========================
    MEMBER DIRECTORY
 ========================== */
