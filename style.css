@@ -1203,28 +1203,6 @@ nav ul{
     line-height: 1.6;
 }
 
-.directory-search {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 40px;
-}
-
-.directory-search input {
-    width: 100%;
-    max-width: 500px;
-    padding: 14px 18px;
-    border: 2px solid #d4af37;
-    border-radius: 50px;
-    font-size: 1rem;
-    outline: none;
-    transition: all 0.3s ease;
-}
-
-.directory-search input:focus {
-    border-color: #000;
-    box-shadow: 0 0 10px rgba(212, 175, 55, 0.35);
-}
-
 .member-grid{
 
     display:grid;
