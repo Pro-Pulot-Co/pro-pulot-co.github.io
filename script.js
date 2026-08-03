@@ -1248,3 +1248,15 @@ document.querySelectorAll(".directory-photo").forEach(photo=>{
     });
 
 });
+previewImage.onclick=function(){
+
+    const id = previewImage.src
+        .split("/")
+        .pop()
+        .replace(".png","");
+
+    loadMember(id);
+
+    leaderModal.classList.add("active");
+
+};
