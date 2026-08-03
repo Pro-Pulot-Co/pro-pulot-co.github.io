@@ -1255,3 +1255,41 @@ previewImage.onclick=function(){
     leaderModal.classList.add("active");
 
 };
+/* ==========================
+   MEMBER DIRECTORY SEARCH
+========================== */
+
+const memberSearch = document.getElementById("memberSearch");
+
+if (memberSearch) {
+
+    memberSearch.addEventListener("input", function () {
+
+        const keyword = this.value.trim().toLowerCase();
+
+        document.querySelectorAll(".directory-item").forEach(item => {
+
+            const memberKey = item.dataset.member;
+
+            if (!members[memberKey]) return;
+
+            const fullName = members[memberKey].name.toLowerCase();
+
+            if (
+                keyword === "" ||
+                fullName.includes(keyword)
+            ) {
+
+                item.style.display = "flex";
+
+            } else {
+
+                item.style.display = "none";
+
+            }
+
+        });
+
+    });
+
+}    
