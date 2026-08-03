@@ -1223,8 +1223,7 @@ document.querySelectorAll(".directory-photo").forEach(photo=>{
 
         const id = photo.dataset.member;
 
-        previewImage.src = members[id].preview;
-
+        previewImage.src = `${members[id].preview}`;
         preview.style.display = "block";
 
     });
