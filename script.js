@@ -1132,9 +1132,9 @@ document.querySelectorAll(".featured-photo").forEach(photo=>{
 
     photo.addEventListener("click", function(){
 
-        loadSpecial(this.dataset.special);
+        loadSpecialMember(this.dataset.special);
 
-        specialModal.classList.add("active");
+        leaderModal.classList.add("active");
 
     });
 
