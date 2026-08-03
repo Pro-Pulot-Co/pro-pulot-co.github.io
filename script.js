@@ -1215,3 +1215,36 @@ document.getElementById("leader-prev").onclick = function(){
     }
 
 };
+const preview =
+document.getElementById("member-preview");
+
+const previewImage =
+document.getElementById("preview-image");
+
+document.querySelectorAll(".directory-photo").forEach(photo=>{
+
+    photo.addEventListener("mouseenter",()=>{
+
+        const id = photo.dataset.member;
+
+        previewImage.src = members[id].preview;
+
+        preview.style.display = "block";
+
+    });
+
+    photo.addEventListener("mouseleave",()=>{
+
+        preview.style.display = "none";
+
+    });
+
+    photo.addEventListener("mousemove",(e)=>{
+
+        preview.style.left = e.pageX + 25 + "px";
+
+        preview.style.top = e.pageY - 60 + "px";
+
+    });
+
+});
