@@ -533,6 +533,10 @@ const members = {
 Agnes:{
     name:"Agnes Sumanoy",
     title:"Official Member",
+    
+    thumbnail:"images/directory/Agnes.png",
+    preview:"images/Agnes.png",
+    
     image:"images/Agnes.png",
 
     tenure:"1st Gen Member • Since 2026",
@@ -550,6 +554,10 @@ Agnes:{
 Cherry:{
     name:"Cherry Torres-Flores",
     title:"Official Member",
+
+    thumbnail:"images/directory/Cherry.png",
+    preview:"images/Cherry2.png",
+    
     image:"images/Cherry2.png",
 
     tenure:"1st Gen Member • Since 2026",
@@ -567,6 +575,10 @@ Cherry:{
 CherryM:{
     name:"Cherry Bermudo",
     title:"Official Member",
+
+    thumbnail:"images/directory/CherryM.png",
+    preview:"images/Cherry.png",
+    
     image:"images/Cherry.png",
 
     tenure:"3rd Gen Member • Since 2026",
@@ -584,6 +596,10 @@ CherryM:{
 Derence:{
     name:"Derence Gadiana",
     title:"Official Member",
+
+    thumbnail:"images/directory/Derence.png",
+    preview:"images/Derence.png",
+    
     image:"images/Derence.png",
 
     tenure:"Founding Member • Since 2026",
@@ -601,6 +617,10 @@ Derence:{
 Diosa:{
     name:"Diosa Talledo",
     title:"Official Member",
+
+    thumbnail:"images/directory/Diosa2.png",
+    preview:"images/Diosa.png",
+    
     image:"images/Diosa.png",
 
     tenure:"3rd Gen Member • Since 2026",
@@ -618,6 +638,10 @@ Diosa:{
 Froii:{
     name:"Froilan Katipunan",
     title:"Official Member",
+
+    thumbnail:"images/directory/Froii.png",
+    preview:"images/Froii.png",
+    
     image:"images/Froii.png",
 
     tenure:"Founding Member • Since 2026",
@@ -635,6 +659,10 @@ Froii:{
 Irik:{
     name:"Eric Patria",
     title:"Official Member",
+
+    thumbnail:"images/directory/Irik.png",
+    preview:"images/Irik3.png",
+    
     image:"images/Irik3.png",
 
     tenure:"Founding Member • Since 2026",
@@ -652,6 +680,10 @@ Irik:{
 Irish:{
     name:"Irish Silot",
     title:"Official Member",
+
+    thumbnail:"images/directory/Irish.png",
+    preview:"images/Irish.png",
+    
     image:"images/Irish.png",
 
     tenure:"3rd Gen Member • Since 2026",
@@ -669,6 +701,10 @@ Irish:{
 JD:{
     name:"Joe Don Altamarino",
     title:"Official Member",
+
+    thumbnail:"images/directory/JD.png",
+    preview:"images/JD.png",
+    
     image:"images/JD.png",
 
     tenure:"2nd Gen Member • Since 2026",
@@ -686,6 +722,10 @@ JD:{
 Jan:{
     name:"Jan Insao",
     title:"Official Member",
+
+    thumbnail:"images/directory/Jan.png",
+    preview:"images/Knarly.png",
+    
     image:"images/Knarly.png",
 
     tenure:"2nd Gen Member • Since 2026",
@@ -704,7 +744,12 @@ Jessan:{
 
     name:"Jessan Marie Gravador",
     title:"Official Member",
+
+    thumbnail:"images/directory/Jessan.png",
+    preview:"images/Jessan.png",
+    
     image:"images/Jessan.png",
+    
     tenure:"1st Gen Member • Since 2026",
     bio:"Jessan is a dependable and enthusiastic member of Pro Pulot Co. who consistently supports the community through active participation and teamwork. She is known for her positive attitude, sportsmanship, and willingness to help both on and off the court.",
     responsibilities:[
@@ -719,6 +764,10 @@ Jikoy:{
 
     name:"Jericho Flores",
     title:"Official Member",
+
+    thumbnail:"images/directory/Jikoy.png",
+    preview:"images/Jikoy.png",
+    
     image:"images/Jikoy.png",
     tenure:"1st Gen Member • Since 2026",
     bio:"Jikoy brings enthusiasm and energy to every game. As an active member of the community, he values camaraderie, continuous improvement, and creating an enjoyable environment for everyone.",
@@ -734,6 +783,10 @@ Justice:{
 
     name:"Justice Villanueva",
     title:"Official Member",
+
+    thumbnail:"images/directory/Justice.png",
+    preview:"images/Justice.png",
+    
     image:"images/Justice.png",
     tenure:"Founding Member • Since 2026",
     bio:"Justice is one of the welcoming faces of Pro Pulot Co., always helping new members feel comfortable and included. His approachable personality and commitment to the community make him a valuable part of the organization.",
@@ -749,6 +802,10 @@ Leigh:{
 
     name:"Leigh Pacilan",
     title:"Official Member",
+
+    thumbnail:"images/directory/Leigh.png",
+    preview:"images/Leigh.png",
+    
     image:"images/Leigh.png",
     tenure:"Founding Member • Since 2026",
     bio:"Leigh is a dedicated member whose passion for pickleball inspires others. Through leadership, teamwork, and consistent participation, Leigh contributes to the growth and success of the Pro Pulot Co. community.",
@@ -764,6 +821,10 @@ Louell:{
 
     name:"Louell Catipay",
     title:"Official Member",
+
+    thumbnail:"images/directory/Louell.png",
+    preview:"images/Louell.png",
+    
     image:"images/Louell.png",
     tenure:"1st Gen Member • Since 2026",
     bio:"Louell is an active member who enjoys building friendships through pickleball. With a positive outlook and cooperative spirit, Louell contributes to the welcoming culture of Pro Pulot Co.",
@@ -779,6 +840,10 @@ Philip:{
 
     name:"Philip Clavecillas",
     title:"Official Member",
+
+    thumbnail:"images/directory/Philip.png",
+    preview:"images/Philip.png",
+    
     image:"images/Philip.png",
     tenure:"1st Gen Member • Since 2026",
     bio:"Philip is a committed member of Pro Pulot Co. who enjoys the competitive and social aspects of pickleball. He consistently contributes to maintaining a welcoming environment while encouraging fellow members to improve their game.",
@@ -794,6 +859,10 @@ Roch:{
 
     name:"Roch Laquinon",
     title:"Official Member",
+
+    thumbnail:"images/directory/Roch.png",
+    preview:"images/Roch.png",
+    
     image:"images/Roch.png",
     tenure:"1st Gen Member • Since 2026",
     bio:"Roch is a passionate member dedicated to fostering an inclusive and enjoyable pickleball community. Through active participation and support for new members, Roch helps strengthen the club's culture.",
@@ -809,6 +878,10 @@ Rochelle:{
 
     name:"Rochelle Torres",
     title:"Official Member",
+
+    thumbnail:"images/directory/Rochelle.png",
+    preview:"images/Rochelle.png",
+    
     image:"images/Rochelle.png",
     tenure:"2nd Gen Member • Since 2026",
     bio:"Rochelle brings enthusiasm, positivity, and dedication to every club activity. She enjoys building friendships through pickleball while contributing to the continued growth of the Pro Pulot Co. family.",
@@ -824,6 +897,10 @@ Rovie:{
 
     name:"Rovelyn Amil",
     title:"Official Member",
+
+    thumbnail:"images/directory/Rovie.png",
+    preview:"images/Rovie2.png",
+    
     image:"images/Rovie2.png",
     tenure:"2nd Gen Member • Since 2026",
     bio:"Rovie is an energetic member who enjoys both the recreational and competitive sides of pickleball. Through active participation and positive engagement, Rovie helps create a supportive community for everyone.",
@@ -839,6 +916,10 @@ Ryle:{
 
     name:"Ryle Merecido",
     title:"Official Member",
+
+    thumbnail:"images/directory/Ryle.png",
+    preview:"images/Ryle.png",
+    
     image:"images/Ryle.png",
     tenure:"1st Gen Member • Since 2026",
     bio:"Ryle is a valued member of Pro Pulot Co. known for dedication, teamwork, and a genuine passion for pickleball. He contributes to the club by participating actively and helping build a strong sense of community.",
@@ -854,6 +935,10 @@ Sheena:{
 
     name:"Sheena Adlao",
     title:"Official Member",
+
+    thumbnail:"images/directory/Sheena.png",
+    preview:"images/Sheena.png",
+    
     image:"images/Sheena.png",
     tenure:"Founding Member • Since 2026",
     bio:"Sheena is a dedicated member of Pro Pulot Co. who values teamwork, friendship, and continuous growth in the sport of pickleball. Her positive attitude and active participation contribute to the welcoming culture of the community.",
@@ -869,6 +954,10 @@ Stancy:{
 
     name:"Stancy Pacilan",
     title:"Official Member",
+
+    thumbnail:"images/directory/Stancy.png",
+    preview:"images/Stancy.png",
+    
     image:"images/Stancy.png",
     tenure:"1st Gen Member • Since 2026",
     bio:"Stancy is an enthusiastic member who enjoys the competitive spirit and community that Pro Pulot Co. offers. Through active participation and sportsmanship, Stancy helps strengthen the club's vibrant environment.",
