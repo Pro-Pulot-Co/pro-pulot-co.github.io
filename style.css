@@ -627,6 +627,12 @@ nav ul{
 
 }
 
+.leader-modal-content{
+
+    padding-top:65px;
+
+}
+
 /* ==========================
    LIGHTBOX
 ========================== */
@@ -1008,12 +1014,33 @@ nav ul{
 }
 
 .leader-close{
+
     position:absolute;
-    top:18px;
+
+    top:20px;
+
     right:25px;
-    font-size:36px;
+
+    width:42px;
+
+    height:42px;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    font-size:32px;
+
+    color:#d4af37;
+
+    background:transparent;
+
     cursor:pointer;
-    color:#999;
+
+    z-index:1000;
+
 }
 
 .leader-close:hover{
