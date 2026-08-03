@@ -279,7 +279,7 @@ section{
 
 .section-title h2{
     color:var(--gold);
-    font-size:42px;
+    font-size:32px;
     font-family:'Montserrat';
 }
 
@@ -1142,11 +1142,11 @@ nav ul{
 }
 
 .featured-description{
-    max-width:800px;
-    margin:20px auto 60px;
+    max-width:700px;
+    margin:10px auto 20px;
     color:#666;
-    line-height:1.8;
-    font-size:10px;
+    line-height:1.5;
+    font-size:.95rem;
 }
 
 .featured-grid{
@@ -1158,6 +1158,8 @@ nav ul{
     justify-content:center;
 
     gap:28px;
+
+   margin-top:15px;
 
 }
 
