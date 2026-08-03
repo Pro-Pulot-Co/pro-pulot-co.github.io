@@ -1136,37 +1136,30 @@ nav ul{
 ========================== */
 
 .featured-members{
-    padding:60px 8%;
+    padding:40px 8% 60px;
     background:#f8f8f8;
     text-align:center;
 }
 
+.featured-members .section-title{
+    font-size:2.3rem;
+    margin-bottom:6px;
+}
+
 .featured-description{
-
     max-width:720px;
-
-    margin:8px auto 15px;
-
+    margin:0 auto 12px;
     color:#666;
-
     line-height:1.6;
-
     font-size:1rem;
-
 }
 
 .featured-grid{
-
     display:grid;
-
     grid-template-columns:repeat(auto-fill,130px);
-
     justify-content:center;
-
     gap:24px;
-
-    margin-top:8px;
-
+    margin-top:0;
 }
 
 .featured-item{
