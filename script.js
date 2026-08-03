@@ -1116,15 +1116,11 @@ document.querySelectorAll(".leader-btn").forEach(button=>{
 
 });
 
-document.querySelectorAll(".directory-btn").forEach(button=>{
+document.querySelectorAll(".directory-photo").forEach(photo=>{
 
-    button.addEventListener("click",function(e){
+    photo.addEventListener("click",function(){
 
-        e.preventDefault();
-
-        const id = this.dataset.member;
-
-        loadMember(id);
+        loadMember(this.dataset.member);
 
         leaderModal.classList.add("active");
 
