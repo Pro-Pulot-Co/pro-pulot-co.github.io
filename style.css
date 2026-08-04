@@ -1632,7 +1632,7 @@ nav ul{
 
     display:block;
 
-    width:320px;
+    width:380px;
 
     max-width:90%;
 
@@ -1644,6 +1644,18 @@ nav ul{
 
     font-weight:700;
 
-    text-align:center;
+    border-radius:50px;
+
+}
+
+#cashPayment{
+
+    margin-bottom:40px;
+
+}
+
+#cashPayment .btn{
+
+    margin-bottom:30px;
 
 }
