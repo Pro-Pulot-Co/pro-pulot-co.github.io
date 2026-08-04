@@ -1054,21 +1054,29 @@ value="cash">
     
     <div id="qrPayment">
 
-        <h3>Scan to Pay</h3>
+    <h3 class="payment-heading">Scan to Pay</h3>
 
-        <!-- YOUR QR IMAGE HERE -->
+    <p class="payment-note">
+        Scan the QR Code below and pay the
+        <strong>₱100.00 Registration Fee.</strong>
+    </p>
 
-        <img src="images/payment/gcash-qr.png"
-             width="250">
+    <img
+    src="images/QR/Messenger_creation_324364B0-208C-4C7B-AB42-054F376BDF4A.jpeg"
+    alt="Pro Pulot Co. GCash QR Code"
+    class="payment-qr">
 
-        <br><br>
+    <label for="paymentProof">
+        Upload Payment Screenshot *
+    </label>
 
-        <label>Payment Screenshot *</label>
+    <input
+        type="file"
+        id="paymentProof"
+        accept=".jpg,.jpeg,.png"
+        required>
 
-        <input type="file"
-               accept="image/*">
-
-    </div>
+</div>
 
     <div id="cashPayment"
          style="display:none;">
