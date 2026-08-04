@@ -1359,18 +1359,23 @@ submitApplication.addEventListener("click", async () => {
 
     };
 
-    try {
+   try {
 
-        const response = await fetch(
-            "https://script.google.com/macros/s/AKfycbzJ_8bvJ5pPrigBmVrkUbNwqdIanWmuGp-bfeMgu4pu2TuLJHm5Mb84S4ddl9qCruEc/exec",
-            {
-                method: "POST",
-                headers: {
-                    "Content-Type": "application/json"
-                },
-                body: JSON.stringify(data)
-            }
-        );
+    const formData = new URLSearchParams();
+
+    formData.append("data", JSON.stringify(data));
+
+    const response = await fetch(
+        "https://script.google.com/macros/s/AKfycbzJ_8bvJ5pPrigBmVrkUbNwqdIanWmuGp-bfeMgu4pu2TuLJHm5Mb84S4ddl9qCruEc/exec",
+        {
+
+            method: "POST",
+
+            body: formData
+
+        }
+
+    );
 
         const result = await response.json();
 
