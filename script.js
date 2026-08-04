@@ -1251,3 +1251,38 @@ previewImage.onclick=function(){
     leaderModal.classList.add("active");
 
 };
+const nextStep = document.getElementById("nextStep");
+
+nextStep.onclick = function(){
+
+    document.getElementById("paymentSection").style.display="block";
+
+    document.getElementById("paymentSection").scrollIntoView({
+        behavior:"smooth"
+    });
+
+};
+
+const methods = document.querySelectorAll("input[name='payment']");
+
+methods.forEach(method=>{
+
+    method.addEventListener("change",function(){
+
+        if(this.value==="qr"){
+
+            qrPayment.style.display="block";
+
+            cashPayment.style.display="none";
+
+        }else{
+
+            qrPayment.style.display="none";
+
+            cashPayment.style.display="block";
+
+        }
+
+    });
+
+});
