@@ -1273,6 +1273,21 @@ nextStep.addEventListener("click", function () {
     });
 
 });
+
+const backStep = document.getElementById("backStep");
+
+backStep.addEventListener("click", function(){
+
+    document.getElementById("paymentSection").style.display="none";
+
+    membershipForm.scrollIntoView({
+
+        behavior:"smooth"
+
+    });
+
+});
+
 const methods = document.querySelectorAll("input[name='payment']");
 
 methods.forEach(method=>{
