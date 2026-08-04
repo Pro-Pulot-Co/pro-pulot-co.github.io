@@ -248,6 +248,12 @@ nav ul li a:hover{
 
 }
 
+.payment-fee span{
+
+    font-size:2rem;
+
+}
+
 /* ======================
    BUTTON
 ====================== */
@@ -1433,9 +1439,40 @@ nav ul{
     background:#444;
 
 }
+
 .payment-title h2{
 
     font-size:1.8rem;
-    margin-bottom:8px;
+    margin-bottom:5px;
+
+}
+.payment-card{
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:12px;
+
+    width:220px;
+    padding:18px;
+
+    border:2px solid #d4af37;
+    border-radius:15px;
+
+    cursor:pointer;
+    background:#fff;
+
+    font-weight:600;
+
+}
+.payment-card input{
+
+    margin:0;
+
+}
+#qrPayment,
+#cashPayment{
+
+    margin-top:40px;
 
 }
