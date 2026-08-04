@@ -1623,3 +1623,27 @@ nav ul{
     font-weight:600;
 
 }
+
+/* ==========================
+   SUBMIT APPLICATION
+========================== */
+
+.submit-btn{
+
+    display:block;
+
+    width:320px;
+
+    max-width:90%;
+
+    margin:40px auto 0;
+
+    padding:16px 24px;
+
+    font-size:1.1rem;
+
+    font-weight:700;
+
+    text-align:center;
+
+}
