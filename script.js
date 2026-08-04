@@ -1333,3 +1333,75 @@ methods.forEach(method=>{
     });
 
 });
+
+<section id="signup">
+
+    <div class="section-title">
+        <h2>Become an Official Member</h2>
+    </div>
+
+    <form id="membershipForm">
+
+    <input type="text" placeholder="Full Name *" required>
+
+    <input type="number" placeholder="Jersey Number *" required>
+
+    <input type="text" placeholder="Screen Name / Nickname *" required>
+
+    <label class="form-label">Birthday *</label>
+    <input type="date" required>
+
+    <label class="form-label">Gender *</label>
+    <select required>
+        <option value="">Select Gender</option>
+        <option>Male</option>
+        <option>Female</option>
+    </select>
+
+    <input type="tel" placeholder="Mobile Number *" required>
+
+    <input type="text"
+           placeholder="Messenger Account Name *"
+           required>
+
+    <label class="form-label">Invited By *</label>
+
+    <select required>
+
+        <option value="">Select Official Member</option>
+
+        <option>Agnes</option>
+        <option>Axel</option>
+        <option>Cherry F</option>
+        <option>Cherry Mae</option>
+        <option>Chester</option>
+        <option>Derence</option>
+        <option>Diosa</option>
+        <option>Francheska Irika</option>
+        <option>Froii</option>
+        <option>Irish</option>
+        <option>Jessan</option>
+        <option>Jikoy</option>
+        <option>Justice</option>
+        <option>Knarly</option>
+        <option>Leigh</option>
+        <option>Loreen</option>
+        <option>Louell</option>
+        <option>Lovely</option>
+        <option>Philip</option>
+        <option>Roch</option>
+        <option>Rochelle</option>
+        <option>Rovelyn</option>
+        <option>Ryle</option>
+        <option>Samantha Grace</option>
+        <option>Sheena</option>
+        <option>Stancy</option>
+      
+    </select>
+
+    <textarea
+        rows="5"
+        placeholder="Briefly tell us something about yourself *"
+        required></textarea>
+
+    <button type="button" id="nextStep">
