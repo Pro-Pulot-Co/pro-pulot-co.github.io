@@ -242,12 +242,6 @@ nav ul li a:hover{
 
 }
 
-.payment-title h2{
-
-    font-size:1.4rem;
-
-}
-
 .payment-fee span{
 
     font-size:2rem;
@@ -1442,10 +1436,12 @@ nav ul{
 
 .payment-title h2{
 
-    font-size:1.8rem;
+    font-size:1.5rem;
     margin-bottom:5px;
+    color:#c6922d;
 
 }
+
 .payment-card{
 
     display:flex;
