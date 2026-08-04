@@ -1017,34 +1017,41 @@ Explore More Memories →
     <h2>Membership Fee</h2>
 </div>
 
-    <p>
-        Registration Fee:
-        <strong>₱100.00</strong>
-    </p>
+    <div class="payment-fee">
 
-    <label>
+<h3>Registration Fee</h3>
 
-        <input type="radio"
-               name="payment"
-               value="qr"
-               checked>
+<span>₱100.00</span>
 
-        QR Code Payment
+</div>
+    
+    <div class="payment-options">
 
-    </label>
+<label class="payment-card">
 
-    <br><br>
+<input
+type="radio"
+name="payment"
+value="qr"
+checked>
 
-    <label>
+<span>QR Code Payment</span>
 
-        <input type="radio"
-               name="payment"
-               value="cash">
+</label>
 
-        Cash Payment
+<label class="payment-card">
 
-    </label>
+<input
+type="radio"
+name="payment"
+value="cash">
 
+<span>Cash Payment</span>
+
+</label>
+
+</div>
+    
     <div id="qrPayment">
 
         <h3>Scan to Pay</h3>
