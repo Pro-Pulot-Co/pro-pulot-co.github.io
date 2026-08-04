@@ -1257,6 +1257,8 @@ const membershipForm = document.getElementById("membershipForm");
 
 nextStep.addEventListener("click", function () {
 
+    console.log("Next button clicked");
+
     if (!membershipForm.checkValidity()) {
 
         membershipForm.reportValidity();
@@ -1264,6 +1266,8 @@ nextStep.addEventListener("click", function () {
         return;
 
     }
+
+    ...
 
     // Lock the form
     document.querySelectorAll("#membershipForm input, #membershipForm select, #membershipForm textarea")
