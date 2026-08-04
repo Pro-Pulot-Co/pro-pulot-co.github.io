@@ -1555,3 +1555,71 @@ nav ul{
     box-shadow:0 10px 25px rgba(0,0,0,.18);
 
 }
+/* ==========================
+   PAYMENT CONTENT
+========================== */
+
+#qrPayment,
+#cashPayment{
+
+    text-align:center;
+
+}
+
+.payment-heading{
+
+    color:#c6922d;
+
+    font-size:1.4rem;
+
+    margin-bottom:10px;
+
+}
+
+.payment-note{
+
+    max-width:520px;
+
+    margin:0 auto 20px;
+
+    color:#666;
+
+    line-height:1.6;
+
+}
+
+#cashPayment a{
+
+    display:inline-block;
+
+    margin-top:18px;
+
+}
+
+.upload-box{
+
+    max-width:500px;
+
+    margin:30px auto;
+
+    padding:25px;
+
+    background:#fff;
+
+    border:2px dashed #c6922d;
+
+    border-radius:18px;
+
+    text-align:center;
+
+}
+
+.upload-box label{
+
+    display:block;
+
+    margin-bottom:15px;
+
+    font-weight:600;
+
+}
