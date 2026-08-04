@@ -1405,3 +1405,72 @@ methods.forEach(method=>{
         required></textarea>
 
     <button type="button" id="nextStep">
+
+            const submitApplication = document.getElementById("submitApplication");
+
+submitApplication.addEventListener("click", async () => {
+
+    submitApplication.disabled = true;
+    submitApplication.textContent = "Submitting...";
+
+    const paymentMethod =
+        document.querySelector("input[name='payment']:checked").value;
+
+    const data = {
+
+        fullName: document.getElementById("fullName").value,
+        jerseyNumber: document.getElementById("jerseyNumber").value,
+        screenName: document.getElementById("screenName").value,
+        birthday: document.getElementById("birthday").value,
+        gender: document.getElementById("gender").value,
+        mobile: document.getElementById("mobile").value,
+        messenger: document.getElementById("messenger").value,
+        invitedBy: document.getElementById("invitedBy").value,
+        about: document.getElementById("about").value,
+        paymentMethod: paymentMethod
+
+    };
+
+    try {
+
+        const response = await fetch(
+            "https://script.google.com/macros/s/AKfycbzJ_8bvJ5pPrigBmVrkUbNwqdIanWmuGp-bfeMgu4pu2TuLJHm5Mb84S4ddl9qCruEc/exec",
+            {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json"
+                },
+                body: JSON.stringify(data)
+            }
+        );
+
+        const result = await response.json();
+
+        if (result.success) {
+
+            alert(
+                "🎉 Thank you for applying to Pro Pulot Co!\n\nYour membership application has been successfully submitted and is now pending verification."
+            );
+
+            membershipForm.reset();
+
+            document.getElementById("paymentSection").style.display = "none";
+
+        } else {
+
+            alert("Submission failed.");
+
+        }
+
+    } catch (error) {
+
+        console.error(error);
+
+        alert("Unable to connect to the membership server.");
+
+    }
+
+    submitApplication.disabled = false;
+    submitApplication.textContent = "Submit Membership Application";
+
+});
