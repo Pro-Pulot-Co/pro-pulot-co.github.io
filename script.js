@@ -1305,6 +1305,9 @@ backStep.addEventListener("click", function(){
 
 });
 
+const qrPayment = document.getElementById("qrPayment");
+const cashPayment = document.getElementById("cashPayment");
+
 const methods = document.querySelectorAll("input[name='payment']");
 
 methods.forEach(method=>{
