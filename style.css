@@ -242,6 +242,12 @@ nav ul li a:hover{
 
 }
 
+.payment-title h2{
+
+    font-size:1.4rem;
+
+}
+
 /* ======================
    BUTTON
 ====================== */
@@ -1425,5 +1431,11 @@ nav ul{
 .back-btn:hover{
 
     background:#444;
+
+}
+.payment-title h2{
+
+    font-size:1.8rem;
+    margin-bottom:8px;
 
 }
