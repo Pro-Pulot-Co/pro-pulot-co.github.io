@@ -1251,6 +1251,7 @@ previewImage.onclick=function(){
     leaderModal.classList.add("active");
 
 };
+
 const nextStep = document.getElementById("nextStep");
 const membershipForm = document.getElementById("membershipForm");
 
@@ -1263,6 +1264,14 @@ nextStep.addEventListener("click", function () {
         return;
 
     }
+
+    // Lock the form
+    document.querySelectorAll("#membershipForm input, #membershipForm select, #membershipForm textarea")
+    .forEach(field => {
+
+        field.disabled = true;
+
+    });
 
     document.getElementById("paymentSection").style.display = "block";
 
@@ -1278,11 +1287,19 @@ const backStep = document.getElementById("backStep");
 
 backStep.addEventListener("click", function(){
 
-    document.getElementById("paymentSection").style.display="none";
+    // Unlock the form
+    document.querySelectorAll("#membershipForm input, #membershipForm select, #membershipForm textarea")
+    .forEach(field => {
+
+        field.disabled = false;
+
+    });
+
+    document.getElementById("paymentSection").style.display = "none";
 
     membershipForm.scrollIntoView({
 
-        behavior:"smooth"
+        behavior: "smooth"
 
     });
 
