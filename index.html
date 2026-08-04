@@ -1004,6 +1004,80 @@ Explore More Memories →
     </button>
 
 </form>
+
+  <section id="paymentSection" style="display:none;">
+
+    <div class="section-title">
+        <h2>Official Membership Payment</h2>
+    </div>
+
+    <p>
+        Official Membership Registration Fee:
+        <strong>₱100.00</strong>
+    </p>
+
+    <label>
+
+        <input type="radio"
+               name="payment"
+               value="qr"
+               checked>
+
+        QR Code Payment
+
+    </label>
+
+    <br><br>
+
+    <label>
+
+        <input type="radio"
+               name="payment"
+               value="cash">
+
+        Cash Payment
+
+    </label>
+
+    <div id="qrPayment">
+
+        <h3>Scan to Pay</h3>
+
+        <!-- YOUR QR IMAGE HERE -->
+
+        <img src="images/payment/gcash-qr.png"
+             width="250">
+
+        <br><br>
+
+        <label>Upload Payment Screenshot *</label>
+
+        <input type="file"
+               accept="image/*">
+
+    </div>
+
+    <div id="cashPayment"
+         style="display:none;">
+
+        <h3>Cash Payment</h3>
+
+        <p>
+            Please pay your ₱100.00 registration fee to
+            <strong>Froilan "Froii" Katipunan</strong>.
+        </p>
+
+        <a href="https://m.me/FroiFroiKatipunan"
+           target="_blank"
+           class="btn">
+
+            Contact Froii via Messenger
+
+        </a>
+
+    </div>
+
+</section>
   
 <!-- ========================= -->
 <!-- CONTACT -->
