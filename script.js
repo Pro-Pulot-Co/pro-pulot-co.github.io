@@ -1252,17 +1252,27 @@ previewImage.onclick=function(){
 
 };
 const nextStep = document.getElementById("nextStep");
+const membershipForm = document.getElementById("membershipForm");
 
-nextStep.onclick = function(){
+nextStep.addEventListener("click", function () {
 
-    document.getElementById("paymentSection").style.display="block";
+    if (!membershipForm.checkValidity()) {
+
+        membershipForm.reportValidity();
+
+        return;
+
+    }
+
+    document.getElementById("paymentSection").style.display = "block";
 
     document.getElementById("paymentSection").scrollIntoView({
-        behavior:"smooth"
+
+        behavior: "smooth"
+
     });
 
-};
-
+});
 const methods = document.querySelectorAll("input[name='payment']");
 
 methods.forEach(method=>{
