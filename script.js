@@ -1267,8 +1267,6 @@ nextStep.addEventListener("click", function () {
 
     }
 
-    ...
-
     // Lock the form
     document.querySelectorAll("#membershipForm input, #membershipForm select, #membershipForm textarea")
     .forEach(field => {
