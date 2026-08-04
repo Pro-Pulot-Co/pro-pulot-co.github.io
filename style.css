@@ -250,7 +250,7 @@ nav ul li a:hover{
 
 .payment-qr{
 
-    width:240px;
+    width:100px;
 
 }
 
@@ -1507,13 +1507,17 @@ nav ul{
 .payment-qr{
 
     display:block;
-    width:320px;
-    max-width:90%;
 
-    margin:25px auto;
+    width:220px;
 
-    border-radius:20px;
+    max-width:100%;
 
-    box-shadow:0 12px 30px rgba(0,0,0,.18);
+    height:auto;
+
+    margin:20px auto;
+
+    border-radius:15px;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.18);
 
 }
