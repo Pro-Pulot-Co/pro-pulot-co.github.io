@@ -1402,3 +1402,28 @@ nav ul{
     cursor:pointer;
 
 }
+.back-btn{
+
+    background:#666;
+
+    color:#fff;
+
+    border:none;
+
+    padding:12px 24px;
+
+    border-radius:40px;
+
+    cursor:pointer;
+
+    margin-bottom:30px;
+
+    transition:.3s;
+
+}
+
+.back-btn:hover{
+
+    background:#444;
+
+}
