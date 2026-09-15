@@ -244,7 +244,7 @@ const leaders = {
 
        Pao:{
         name:"Pao Nemil",
-        title:"Featured Special Member",
+        position:"Community Director"
         image:"images/feature/member1.jpg",
 
     tenure:"Founding Member • Since 2026",
