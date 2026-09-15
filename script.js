@@ -247,7 +247,7 @@ const leaders = {
         title:"Featured Special Member",
         image:"images/feature/member1.jpg",
 
-        tenure:"Community Director",
+    tenure:"Founding Member • Since 2026",
 
         bio:"A respected Community Director and valued supporter of Pro Pulot Co., Pao Nemil plays a vital role in strengthening relationships within the pickleball community. Through his leadership, dedication, and passion for the sport, he helps foster an inclusive environment where members feel welcomed, connected, and inspired to grow together.",
 
