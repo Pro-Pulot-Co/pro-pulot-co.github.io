@@ -770,6 +770,12 @@ nav ul{
     gap:30px;
 }
 
+.leader-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+    gap:30px;
+}
+
 .leader-grid-top{
     display:flex;
     justify-content:center;
@@ -782,6 +788,9 @@ nav ul{
     gap:30px;
     flex-wrap:wrap;
 }
+
+.leader-card{
+    background:#1f1f1f;
 
 .leader-card{
     background:#1f1f1f;
