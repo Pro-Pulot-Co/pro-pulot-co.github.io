@@ -635,6 +635,27 @@ Diosa:{
     ]
 },
 
+Fel:{
+    name:"Fel Callao",
+    title:"Official Member",
+
+    thumbnail:"images/directory/Fel.png",
+    preview:"images/Fel.png",
+    
+    image:"images/Fel.png",
+
+    tenure:"4th Gen Member • Since 2026",
+
+    bio:"An enthusiastic member of Pro Pulot Co. who enjoys connecting with fellow players while promoting friendship, respect, and sportsmanship within the community.",
+
+    responsibilities:[
+        "Participates in club events",
+        "Promotes friendship and respect",
+        "Supports community growth",
+        "Encourages positive engagement"
+    ]
+},
+
 Froii:{
     name:"Froilan Katipunan",
     title:"Official Member",
@@ -834,6 +855,27 @@ Louell:{
         "Represents the values of the club"
     ]
 
+},
+
+Lovely:{
+    name:"Lovely",
+    title:"Official Member",
+
+    thumbnail:"images/directory/Lovely.png",
+    preview:"images/Lovely.png",
+    
+    image:"images/Lovely.png",
+
+    tenure:"4th Gen Member • Since 2026",
+
+    bio:"An enthusiastic member of Pro Pulot Co. who enjoys connecting with fellow players while promoting friendship, respect, and sportsmanship within the community.",
+
+    responsibilities:[
+        "Participates in club events",
+        "Promotes friendship and respect",
+        "Supports community growth",
+        "Encourages positive engagement"
+    ]
 },
 
 Philip:{
