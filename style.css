@@ -771,8 +771,15 @@ nav ul{
 }
 
 .leader-grid.executive{
-    grid-template-columns:repeat(auto-fit,minmax(320px,380px));
+    display:grid;
+    grid-template-columns:repeat(2,380px);
     justify-content:center;
+    gap:30px;
+    margin-bottom:30px;
+}
+
+.leader-grid.executive:first-of-type{
+    grid-template-columns:380px;
 }
 
 .leader-card{
