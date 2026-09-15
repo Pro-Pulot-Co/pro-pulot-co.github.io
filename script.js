@@ -198,6 +198,8 @@ let currentProfileType = "leader";
 
 const leaderOrder = [
 
+    "Pao",
+    
     "leigh",
 
     "irik",
@@ -240,6 +242,25 @@ const specialOrder = [
 
 const leaders = {
 
+       Pao:{
+        name:"Pao Nemil",
+        title:"Featured Special Member",
+        image:"images/feature/member1.jpg",
+
+        tenure:"Community Director",
+
+        bio:"A respected Community Director and valued supporter of Pro Pulot Co., Pao Nemil plays a vital role in strengthening relationships within the pickleball community. Through his leadership, dedication, and passion for the sport, he helps foster an inclusive environment where members feel welcomed, connected, and inspired to grow together.",
+
+    responsibilities:[
+        "Leads community engagement and relationship-building initiatives",
+        "Strengthens partnerships with players, clubs, and local organizations",
+        "Promotes sportsmanship, teamwork, and inclusivity within the community",
+        "Supports the planning and success of club events and tournaments",
+        "Welcomes and mentors new members joining Pro Pulot Co.",
+        "Represents Pro Pulot Co. in community outreach and promotional activities"
+            ]
+    },
+    
     leigh:{
     name:"Leigh Pacilan",
     position:"Captain",
@@ -436,13 +457,17 @@ const specialMembers = {
         title:"Featured Special Member",
         image:"images/feature/member1.jpg",
 
-        tenure:"Special Guest",
+        tenure:"Community Director",
 
-        bio:"A valued friend of Pro Pulot Co. who joined the community during a memorable club event and continues to share the spirit of sportsmanship and fellowship.",
+        bio:"A respected Community Director and valued supporter of Pro Pulot Co., Pao Nemil plays a vital role in strengthening relationships within the pickleball community. Through his leadership, dedication, and passion for the sport, he helps foster an inclusive environment where members feel welcomed, connected, and inspired to grow together.",
 
-        responsibilities:[
-            "Promoted camaraderie and friendship",
-            "Supported Pro Pulot Co. events"
+    responsibilities:[
+        "Leads community engagement and relationship-building initiatives",
+        "Strengthens partnerships with players, clubs, and local organizations",
+        "Promotes sportsmanship, teamwork, and inclusivity within the community",
+        "Supports the planning and success of club events and tournaments",
+        "Welcomes and mentors new members joining Pro Pulot Co.",
+        "Represents Pro Pulot Co. in community outreach and promotional activities"
             ]
     },
 
