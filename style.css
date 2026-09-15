@@ -770,16 +770,19 @@ nav ul{
     gap:30px;
 }
 
-.leader-grid.executive{
-    display:grid;
-    grid-template-columns:repeat(2,380px);
+/* Pao Row */
+.leader-grid-top{
+    display:flex;
     justify-content:center;
-    gap:30px;
-    margin-bottom:30px;
+    margin-bottom:40px;
 }
 
-.leader-grid.executive:first-of-type{
-    grid-template-columns:380px;
+/* Leigh + Irik Row */
+.leader-grid-bottom{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    flex-wrap:wrap;
 }
 
 .leader-card{
