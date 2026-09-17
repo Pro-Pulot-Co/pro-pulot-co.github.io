@@ -1673,3 +1673,10 @@ nav ul{
     margin-bottom:30px;
 
 }
+
+.gallery video{
+    width:100%;
+    margin-bottom:18px;
+    border-radius:18px;
+    display:block;
+}
