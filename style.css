@@ -1676,7 +1676,11 @@ nav ul{
 
 .gallery video{
     width:100%;
+    height:auto;
+    aspect-ratio:16 / 9;
+    object-fit:cover;
+    display:block;
     margin-bottom:18px;
     border-radius:18px;
-    display:block;
+    break-inside:avoid;
 }
